@@ -3,6 +3,7 @@ package lk.ijse.springboot.greenshadow.controller;
 import lk.ijse.springboot.greenshadow.dto.UserDTO;
 import lk.ijse.springboot.greenshadow.exception.AlreadyExistsException;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
+import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -31,5 +32,15 @@ public class UserController {
     @GetMapping("/{email}")
     public ResponseEntity<?>getUserByEmail(@PathVariable String email){
         return new ResponseEntity<>(userService.getUserByEmail(email), HttpStatus.OK);
+    }
+
+    @PatchMapping
+    public ResponseEntity<?>updateUser(@RequestBody UserDTO userDTO){
+        try{
+            userService.updateUser(userDTO);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }catch (NotFoundException e){
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+        }
     }
 }
