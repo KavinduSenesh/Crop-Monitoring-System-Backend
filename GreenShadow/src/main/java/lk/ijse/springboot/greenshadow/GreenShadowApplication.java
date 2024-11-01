@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GreenShadowApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Working.....");
 		SpringApplication.run(GreenShadowApplication.class, args);
 	}
 
