@@ -7,10 +7,7 @@ import lk.ijse.springboot.greenshadow.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
@@ -29,5 +26,10 @@ public class UserController {
         } catch (DataPersistFailedException e) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
+    }
+
+    @GetMapping("/{email}")
+    public ResponseEntity<?>getUserByEmail(@PathVariable String email){
+        return new ResponseEntity<>(userService.getUserByEmail(email), HttpStatus.OK);
     }
 }
