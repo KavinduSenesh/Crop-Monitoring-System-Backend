@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +24,7 @@ public class Staff {
     private String lastName;
     @Column(name = "designation")
     private String designation;
+    @Enumerated
     @Column(name = "gender")
     private Gender gender;
     @Column(name = "joined_date")
@@ -43,18 +45,23 @@ public class Staff {
     private String contactNo;
     @Column(name = "email")
     private String email;
+    @Enumerated
     @Column(name = "role")
     private Role role;
 
     @ManyToMany(mappedBy = "staff")
+    @JsonIgnore
     private List<Field> field;
 
     @OneToMany(mappedBy = "staff")
+    @JsonIgnore
     private List<Vehicle> vehicle;
 
     @OneToOne(mappedBy = "staff",optional = true)
+    @JsonIgnore
     private Equipment equipment;
 
     @ManyToMany(mappedBy = "staff")
+    @JsonIgnore
     private List<MonitoringLog> monitoringLogs;
 }
