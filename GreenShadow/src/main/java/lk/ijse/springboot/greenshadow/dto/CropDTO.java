@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.dto;
 
+import lk.ijse.springboot.greenshadow.customObj.UserResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class CropDTO implements SuperDTO{
+public class CropDTO implements SuperDTO, UserResponse {
     private String cropCode;
     private String cropCommonName;
     private String cropScientificName;

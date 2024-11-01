@@ -1,9 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,6 +16,7 @@ public class User {
     private String email;
     @Column(name = "password")
     private String password;
+    @Enumerated
     @Column(name = "role")
     private Role role;
 }

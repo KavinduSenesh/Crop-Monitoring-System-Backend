@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.dto;
 
+import lk.ijse.springboot.greenshadow.customObj.UserResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class StaffDTO implements SuperDTO{
+public class StaffDTO implements SuperDTO, UserResponse {
     private String staffId;
     private String firstName;
     private String lastName;
