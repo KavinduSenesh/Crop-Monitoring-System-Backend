@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService{
                 throw new DataPersistFailedException("User save failed");
             }
         }else {
-            throw new DataPersistFailedException("User already exists");
+            throw new DataPersistFailedException("User already exists..");
         }
     }
 
