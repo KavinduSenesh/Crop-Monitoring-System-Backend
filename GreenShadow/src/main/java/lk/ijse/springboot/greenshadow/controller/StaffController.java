@@ -1,7 +1,7 @@
 package lk.ijse.springboot.greenshadow.controller;
 
 import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
-import lk.ijse.springboot.greenshadow.dto.StaffDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.service.StaffService;
@@ -76,16 +76,17 @@ public class StaffController {
         }
     }
 
-    @PatchMapping
-    public ResponseEntity<?> updateStaff(@RequestBody StaffDTO staffDTO){
+    @PatchMapping("/{id}")
+    public ResponseEntity<?> updateStaff(@PathVariable ("id") String id, @RequestBody StaffDTO staffDTO){
         logger.info("Attempting to update staff: {}", staffDTO);
-        try{
-            staffService.updateStaff(staffDTO);
+        try {
+            staffService.updateStaff(id, staffDTO);
+            logger.info("Successfully updated staff with ID: {}", id);
             return new ResponseEntity<>(HttpStatus.OK);
-        }catch (DataPersistFailedException | NotFoundException e){
-            logger.error("Failed to update staff: {}", e.getMessage());
+        } catch (NotFoundException | DataPersistFailedException e) {
+            logger.warn("Failed to update staff: {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.error("Unexpected error occurred while updating staff: {}", e.getMessage(), e);
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }

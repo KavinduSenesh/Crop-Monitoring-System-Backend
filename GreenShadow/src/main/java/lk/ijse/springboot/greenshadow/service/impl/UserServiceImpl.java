@@ -1,12 +1,13 @@
-package lk.ijse.springboot.greenshadow.service;
+package lk.ijse.springboot.greenshadow.service.impl;
 
-import lk.ijse.springboot.greenshadow.customObj.UserErrorResponse;
+import lk.ijse.springboot.greenshadow.customObj.impl.UserErrorResponse;
 import lk.ijse.springboot.greenshadow.customObj.UserResponse;
-import lk.ijse.springboot.greenshadow.dto.UserDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
 import lk.ijse.springboot.greenshadow.entity.User;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.repository.UserRepository;
+import lk.ijse.springboot.greenshadow.service.UserService;
 import lk.ijse.springboot.greenshadow.util.Mapping;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -17,7 +18,7 @@ import java.util.Optional;
 @Service
 @Transactional
 @RequiredArgsConstructor
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
 

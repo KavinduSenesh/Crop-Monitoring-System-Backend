@@ -1,6 +1,6 @@
 package lk.ijse.springboot.greenshadow.controller;
 
-import lk.ijse.springboot.greenshadow.dto.UserDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
 import lk.ijse.springboot.greenshadow.exception.AlreadyExistsException;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.exception.NotFoundException;

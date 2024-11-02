@@ -1,7 +1,7 @@
 package lk.ijse.springboot.greenshadow.service;
 
 import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
-import lk.ijse.springboot.greenshadow.dto.StaffDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 
 import java.util.List;
 
@@ -10,5 +10,5 @@ public interface StaffService {
     StaffResponse getStaffById(String id);
     List<StaffDTO> getAllStaff();
     void deleteStaff(String id);
-    void updateStaff(StaffDTO staffDTO);
+    void updateStaff(String id, StaffDTO staffDTO);
 }

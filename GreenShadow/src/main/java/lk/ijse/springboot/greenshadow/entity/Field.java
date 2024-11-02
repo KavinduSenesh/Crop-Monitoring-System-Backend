@@ -23,9 +23,9 @@ public class Field {
     private Point fieldLocation;
     @Column(name = "field_size")
     private double fieldSize;
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(name = "fieldImage1", columnDefinition = "LONGTEXT")
     private String fieldImage1;
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(name = "fieldImage2", columnDefinition = "LONGTEXT")
     private String fieldImage2;
 
     @OneToMany(mappedBy = "field",cascade = CascadeType.ALL)

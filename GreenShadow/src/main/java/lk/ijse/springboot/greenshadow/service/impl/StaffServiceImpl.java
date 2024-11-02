@@ -1,18 +1,17 @@
-package lk.ijse.springboot.greenshadow.service;
+package lk.ijse.springboot.greenshadow.service.impl;
 
 import jakarta.transaction.Transactional;
-import lk.ijse.springboot.greenshadow.customObj.StaffErrorResponse;
+import lk.ijse.springboot.greenshadow.customObj.impl.StaffErrorResponse;
 import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
-import lk.ijse.springboot.greenshadow.dto.StaffDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 import lk.ijse.springboot.greenshadow.entity.Staff;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.repository.StaffRepository;
+import lk.ijse.springboot.greenshadow.service.StaffService;
 import lk.ijse.springboot.greenshadow.util.AppUtil;
 import lk.ijse.springboot.greenshadow.util.Mapping;
 import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
@@ -58,22 +57,21 @@ public class StaffServiceImpl implements StaffService {
     public void deleteStaff(String id) {
         Optional<Staff> staff = staffRepository.findById(id);
         if (staff.isPresent()){
-            staffRepository.deleteById(id);
+            staffRepository.delete(staff.get());
         }else {
             throw new NotFoundException("Staff not found");
         }
     }
 
     @Override
-    public void updateStaff(StaffDTO staffDTO) {
-        Optional<Staff> staff = staffRepository.findById(staffDTO.getStaffId());
-        if (staff.isPresent()){
-            Staff save = staffRepository.save(mapping.convertStaffDTOToStaff(staffDTO));
-            if (save == null){
-                throw new DataPersistFailedException("Staff update failed");
-            }
-        }else {
+    public void updateStaff(String id, StaffDTO staffDTO) {
+        Optional<Staff> staff = staffRepository.findById(id);
+        if (staff.isPresent()) {
+            staffDTO.setStaffId(id);
+            staffRepository.save(mapping.convertStaffDTOToStaff(staffDTO));
+        } else {
             throw new NotFoundException("Staff not found");
         }
     }
 }
+

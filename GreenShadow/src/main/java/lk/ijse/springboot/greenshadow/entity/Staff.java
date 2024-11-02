@@ -51,18 +51,14 @@ public class Staff {
     private Role role;
 
     @ManyToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<Field> field;
 
     @OneToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<Vehicle> vehicle;
 
     @OneToOne(mappedBy = "staff",optional = true)
-    @JsonIgnore
     private Equipment equipment;
 
     @ManyToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<MonitoringLog> monitoringLogs;
 }

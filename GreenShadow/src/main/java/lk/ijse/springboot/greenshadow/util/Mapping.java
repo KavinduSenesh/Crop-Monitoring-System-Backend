@@ -1,11 +1,10 @@
 package lk.ijse.springboot.greenshadow.util;
 
-import lk.ijse.springboot.greenshadow.dto.StaffDTO;
-import lk.ijse.springboot.greenshadow.dto.UserDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
+import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
 import lk.ijse.springboot.greenshadow.entity.Staff;
 import lk.ijse.springboot.greenshadow.entity.User;
 import org.modelmapper.ModelMapper;
-import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
