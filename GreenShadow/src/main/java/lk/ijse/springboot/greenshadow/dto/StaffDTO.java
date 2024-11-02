@@ -27,8 +27,8 @@ public class StaffDTO implements SuperDTO, UserResponse {
     private String contactNo;
     private String email;
     private String role;
-    private List<String> fieldCodes;
-    private List<String> vehicleCodes;
-    private String equipmentId;
-    private List<String> monitoringLogCodes;
+//    private List<String> fieldCodes;
+//    private List<String> vehicleCodes;
+//    private String equipmentId;
+//    private List<String> monitoringLogCodes;
 }
