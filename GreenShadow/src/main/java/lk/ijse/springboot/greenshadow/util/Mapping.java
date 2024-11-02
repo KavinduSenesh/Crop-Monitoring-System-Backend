@@ -1,6 +1,8 @@
 package lk.ijse.springboot.greenshadow.util;
 
+import lk.ijse.springboot.greenshadow.dto.StaffDTO;
 import lk.ijse.springboot.greenshadow.dto.UserDTO;
+import lk.ijse.springboot.greenshadow.entity.Staff;
 import lk.ijse.springboot.greenshadow.entity.User;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
@@ -21,5 +23,13 @@ public class Mapping {
     public UserDTO convertUserToUserDTO(User user){
         return mapper.map(user, UserDTO.class);
     }
-
+    public Staff convertStaffDTOToStaff(StaffDTO staffDTO){
+        return mapper.map(staffDTO, Staff.class);
+    }
+    public StaffDTO convertStaffToStaffDTO(Staff staff){
+        return mapper.map(staff, StaffDTO.class);
+    }
+    public List convertStaffListToStaffDTOList(List<Staff> all){
+        return mapper.map(all, List.class);
+    }
 }
