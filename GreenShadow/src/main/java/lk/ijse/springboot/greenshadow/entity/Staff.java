@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -17,20 +18,20 @@ import java.util.List;
 public class Staff {
     @Id
     @Column(name = "staff_member_id")
-    private String staffMemberId;
+    private String staffId;
     @Column(name = "first_name")
     private String firstName;
     @Column(name = "last_name")
     private String lastName;
     @Column(name = "designation")
     private String designation;
-    @Enumerated
     @Column(name = "gender")
+    @Enumerated(EnumType.STRING)
     private Gender gender;
     @Column(name = "joined_date")
-    private String joinedDate;
+    private Date joinedDate;
     @Column(name = "date_of_birth")
-    private String dateOfBirth;
+    private Date dateOfBirth;
     @Column(name = "address_line_1")
     private String addressLine1;
     @Column(name = "address_line_2")
@@ -45,23 +46,19 @@ public class Staff {
     private String contactNo;
     @Column(name = "email")
     private String email;
-    @Enumerated
     @Column(name = "role")
+    @Enumerated(EnumType.STRING)
     private Role role;
 
     @ManyToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<Field> field;
 
     @OneToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<Vehicle> vehicle;
 
     @OneToOne(mappedBy = "staff",optional = true)
-    @JsonIgnore
     private Equipment equipment;
 
     @ManyToMany(mappedBy = "staff")
-    @JsonIgnore
     private List<MonitoringLog> monitoringLogs;
 }
