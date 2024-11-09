@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.dto.impl;
 
+import lk.ijse.springboot.greenshadow.customObj.FieldResponse;
 import lk.ijse.springboot.greenshadow.customObj.UserResponse;
 import lk.ijse.springboot.greenshadow.dto.SuperDTO;
 import lombok.AllArgsConstructor;
@@ -12,7 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class FieldDTO implements SuperDTO, UserResponse {
+public class FieldDTO implements SuperDTO, FieldResponse {
     private String fieldCode;
     private String fieldName;
     private Point fieldLocation;

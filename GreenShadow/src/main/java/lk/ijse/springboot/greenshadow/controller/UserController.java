@@ -1,9 +1,7 @@
 package lk.ijse.springboot.greenshadow.controller;
 
 import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
-import lk.ijse.springboot.greenshadow.exception.AlreadyExistsException;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
-import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -29,9 +27,6 @@ public class UserController {
             userService.saveUser(userDTO);
             logger.info("Successfully saved user with email: {}", userDTO.getEmail());
             return new ResponseEntity<>(HttpStatus.CREATED);
-        } catch (AlreadyExistsException e) {
-            logger.error("Failed to save user: {}", e.getMessage());
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         } catch (DataPersistFailedException e) {
             logger.error("Failed to save user: {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -51,9 +46,9 @@ public class UserController {
             userService.updateUser(userDTO);
             logger.info("Successfully updated user with email: {}", userDTO.getEmail());
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        }catch (NotFoundException e){
+       }catch (DataPersistFailedException e){
             logger.error("Failed to update user: {}", e.getMessage());
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+           return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
     }
 }

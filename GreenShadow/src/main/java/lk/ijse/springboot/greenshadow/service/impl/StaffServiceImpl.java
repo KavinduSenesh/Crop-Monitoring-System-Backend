@@ -6,7 +6,7 @@ import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 import lk.ijse.springboot.greenshadow.entity.Staff;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
-import lk.ijse.springboot.greenshadow.exception.NotFoundException;
+import lk.ijse.springboot.greenshadow.exception.StaffNotFoundException;
 import lk.ijse.springboot.greenshadow.repository.StaffRepository;
 import lk.ijse.springboot.greenshadow.service.StaffService;
 import lk.ijse.springboot.greenshadow.util.AppUtil;
@@ -22,19 +22,14 @@ import java.util.Optional;
 public class StaffServiceImpl implements StaffService {
 
     private final StaffRepository staffRepository;
-
     private final Mapping mapping;
 
     @Override
     public void saveStaff(StaffDTO staffDTO) {
-        String staffId = AppUtil.generateStaffId();
-        while (staffRepository.existsById(staffId)){
-            staffId = AppUtil.generateStaffId();
-        }
-        staffDTO.setStaffId(staffId);
-        Staff save = staffRepository.save(mapping.convertStaffDTOToStaff(staffDTO));
-        if (save == null){
-            throw new DataPersistFailedException("Staff save failed");
+        staffDTO.setStaffId(AppUtil.generateStaffId());
+        Staff staff = staffRepository.save(mapping.convertStaffDTOToStaff(staffDTO));
+        if (staff.getStaffId() == null){
+            throw new DataPersistFailedException("Failed to save staff");
         }
     }
 
@@ -59,7 +54,7 @@ public class StaffServiceImpl implements StaffService {
         if (staff.isPresent()){
             staffRepository.delete(staff.get());
         }else {
-            throw new NotFoundException("Staff not found");
+            throw new StaffNotFoundException("Staff not found");
         }
     }
 
@@ -70,7 +65,7 @@ public class StaffServiceImpl implements StaffService {
             staffDTO.setStaffId(id);
             staffRepository.save(mapping.convertStaffDTOToStaff(staffDTO));
         } else {
-            throw new NotFoundException("Staff not found");
+            throw new StaffNotFoundException("Staff not found");
         }
     }
 }
