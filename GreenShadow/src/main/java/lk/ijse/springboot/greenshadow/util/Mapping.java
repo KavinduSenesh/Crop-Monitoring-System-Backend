@@ -1,13 +1,7 @@
 package lk.ijse.springboot.greenshadow.util;
 
-import lk.ijse.springboot.greenshadow.dto.impl.CropDTO;
-import lk.ijse.springboot.greenshadow.dto.impl.FieldDTO;
-import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
-import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
-import lk.ijse.springboot.greenshadow.entity.Crop;
-import lk.ijse.springboot.greenshadow.entity.Field;
-import lk.ijse.springboot.greenshadow.entity.Staff;
-import lk.ijse.springboot.greenshadow.entity.User;
+import lk.ijse.springboot.greenshadow.dto.impl.*;
+import lk.ijse.springboot.greenshadow.entity.*;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.internal.bytebuddy.description.field.FieldList;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,6 +46,15 @@ public class Mapping {
         return mapper.map(crop, CropDTO.class);
     }
     public List convertCropListToCropDTOList(List<Crop> all){
+        return mapper.map(all, List.class);
+    }
+    public Vehicle convertVehicleDTOToVehicle(VehicleDTO vehicleDTO){
+        return mapper.map(vehicleDTO, Vehicle.class);
+    }
+    public VehicleDTO convertVehicleToVehicleDTO(Vehicle vehicle){
+        return mapper.map(vehicle, VehicleDTO.class);
+    }
+    public List convertVehicleListToVehicleDTOList(List<Vehicle> all){
         return mapper.map(all, List.class);
     }
 }

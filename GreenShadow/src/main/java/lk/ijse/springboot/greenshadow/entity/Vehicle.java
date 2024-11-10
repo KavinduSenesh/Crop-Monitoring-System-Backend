@@ -14,7 +14,7 @@ public class Vehicle {
     @Id
     @Column(name = "vehicle_code")
     private String vehicleCode;
-    @Column(name = "license_plate_number")
+    @Column(name = "license_plate_number", unique = true)
     private String licensePlateNumber;
     @Column(name = "vehicle_category")
     private String vehicleCategory;
@@ -24,7 +24,6 @@ public class Vehicle {
     private String status;
     @Column(name = "remarks")
     private String remarks;
-
     @ManyToOne
     @JoinColumn(name = "staff_member_id", referencedColumnName = "staff_member_id")
     private Staff staff;
