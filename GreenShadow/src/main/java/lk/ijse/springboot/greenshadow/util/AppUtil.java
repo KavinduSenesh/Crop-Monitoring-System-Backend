@@ -13,6 +13,9 @@ public class AppUtil {
     public static String generateFieldId() {
         return "F-" + UUID.randomUUID();
     }
+    public static String generateCropCode(){
+        return "C-" + UUID.randomUUID();
+    }
     public static String toBase64Pic(MultipartFile image) {
         try{
             byte[] picBytes = image.getBytes();

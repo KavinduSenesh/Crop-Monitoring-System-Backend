@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -26,11 +27,10 @@ public class Crop {
     private String category;
     @Column(name = "crop_season")
     private String cropSeason;
-
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;
-
     @ManyToMany(mappedBy = "crop")
     private List<MonitoringLog> monitoringLogList;
 }
