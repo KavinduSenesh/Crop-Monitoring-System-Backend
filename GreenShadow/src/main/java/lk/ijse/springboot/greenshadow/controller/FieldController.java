@@ -39,7 +39,7 @@ public class FieldController {
     )
     {
         if (fieldName == null || fieldImage1 == null || fieldImage2 == null){
-            logger.warn("Field object or Field Image is null");
+            logger.warn("Field name or Field Image is null");
             return ResponseEntity.badRequest().build();
         } else{
             FieldDTO fieldDTO = new FieldDTO();
