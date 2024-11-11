@@ -19,6 +19,9 @@ public class AppUtil {
     public static String generateVehicleCode(){
         return "V-" + UUID.randomUUID();
     }
+    public static String generateEquipmentId(){
+        return "E-" + UUID.randomUUID();
+    }
     public static String toBase64Pic(MultipartFile image) {
         try{
             byte[] picBytes = image.getBytes();

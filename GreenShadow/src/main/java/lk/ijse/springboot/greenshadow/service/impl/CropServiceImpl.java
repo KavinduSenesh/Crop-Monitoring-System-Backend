@@ -5,6 +5,7 @@ import lk.ijse.springboot.greenshadow.customObj.CropResponse;
 import lk.ijse.springboot.greenshadow.customObj.impl.CropErrorResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.CropDTO;
 import lk.ijse.springboot.greenshadow.entity.Crop;
+import lk.ijse.springboot.greenshadow.exception.CropNotFoundException;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.repository.CropRepository;
 import lk.ijse.springboot.greenshadow.service.CropService;
@@ -36,7 +37,7 @@ public class CropServiceImpl implements CropService{
     public void deleteCrop(String cropCode) {
         Optional<Crop> crop = cropRepository.findById(cropCode);
         if (crop.isEmpty()){
-            throw new DataPersistFailedException("Failed to delete crop");
+            throw new CropNotFoundException("Crop not found");
         }else {
             cropRepository.deleteById(cropCode);
         }

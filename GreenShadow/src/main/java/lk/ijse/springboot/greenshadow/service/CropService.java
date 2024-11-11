@@ -9,7 +9,7 @@ import java.util.List;
 public interface CropService {
     void saveCrop(@Valid CropDTO cropDTO);
     void deleteCrop(String cropCode);
-    void updateCrop(String cropCode, CropDTO cropDTO);
+    void updateCrop(String cropCode,@Valid CropDTO cropDTO);
     CropResponse getSelectedCrop(String cropCode);
     List<CropDTO> getAllCrops();
 }

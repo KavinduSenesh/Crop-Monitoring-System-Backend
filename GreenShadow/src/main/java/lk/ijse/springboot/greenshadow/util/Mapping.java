@@ -14,6 +14,8 @@ public class Mapping {
 
     @Autowired
     private ModelMapper mapper;
+    @Autowired
+    private ModelMapper modelMapper;
 
     public User convertUserDTOToUser(UserDTO userDTO){
         return mapper.map(userDTO, User.class);
@@ -56,5 +58,14 @@ public class Mapping {
     }
     public List convertVehicleListToVehicleDTOList(List<Vehicle> all){
         return mapper.map(all, List.class);
+    }
+    public Equipment convertEquipmentDTOToEquipment(EquipmentDTO equipmentDTO){
+        return mapper.map(equipmentDTO, Equipment.class);
+    }
+    public EquipmentDTO convertEquipmentToEquipmentDTO(Equipment equipment){
+        return modelMapper.map(equipment, EquipmentDTO.class);
+    }
+    public  List concertEquipmentListToEquipmentDTOList(List<Equipment> equipmentList){
+        return modelMapper.map(equipmentList, List.class);
     }
 }
