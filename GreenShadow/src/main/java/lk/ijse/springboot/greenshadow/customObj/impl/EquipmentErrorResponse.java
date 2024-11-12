@@ -1,16 +1,14 @@
 package lk.ijse.springboot.greenshadow.customObj.impl;
 
-import lk.ijse.springboot.greenshadow.customObj.EquipmentResponse;
+import jdk.jfr.Name;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class EquipmentErrorResponse implements EquipmentResponse, Serializable {
-    int errorCode;
-    String errorMessage;
+public class EquipmentErrorResponse {
+    private int ErrorCode;
+    private String ErrorMessage;
 }

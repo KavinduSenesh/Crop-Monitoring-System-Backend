@@ -2,6 +2,8 @@ package lk.ijse.springboot.greenshadow.util;
 
 import lk.ijse.springboot.greenshadow.dto.impl.*;
 import lk.ijse.springboot.greenshadow.entity.*;
+import lk.ijse.springboot.greenshadow.repository.FieldRepository;
+import lk.ijse.springboot.greenshadow.repository.StaffRepository;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.internal.bytebuddy.description.field.FieldList;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +14,11 @@ import java.util.List;
 @Component
 public class Mapping {
 
+    private static FieldRepository fieldRepository;
+    private static StaffRepository staffRepository;
+
     @Autowired
     private ModelMapper mapper;
-    @Autowired
-    private ModelMapper modelMapper;
 
     public User convertUserDTOToUser(UserDTO userDTO){
         return mapper.map(userDTO, User.class);
@@ -63,9 +66,9 @@ public class Mapping {
         return mapper.map(equipmentDTO, Equipment.class);
     }
     public EquipmentDTO convertEquipmentToEquipmentDTO(Equipment equipment){
-        return modelMapper.map(equipment, EquipmentDTO.class);
+        return mapper.map(equipment, EquipmentDTO.class);
     }
-    public  List concertEquipmentListToEquipmentDTOList(List<Equipment> equipmentList){
-        return modelMapper.map(equipmentList, List.class);
+    public List convertEquipmentListToEquipmentDTOList(List<Equipment> all){
+        return mapper.map(all, List.class);
     }
 }

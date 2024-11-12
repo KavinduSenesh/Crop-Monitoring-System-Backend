@@ -2,6 +2,7 @@ package lk.ijse.springboot.greenshadow.controller;
 
 import jakarta.validation.Valid;
 import lk.ijse.springboot.greenshadow.customObj.FieldResponse;
+import lk.ijse.springboot.greenshadow.customObj.impl.FieldErrorResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.FieldDTO;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
 import lk.ijse.springboot.greenshadow.exception.FieldNotFoundException;
@@ -116,11 +117,17 @@ public class FieldController {
 
     @GetMapping(value = "/{field_code}", produces = MediaType.APPLICATION_JSON_VALUE)
     public FieldResponse getSelectedField(@PathVariable("field_code") String fieldCode){
-        return fieldService.getFieldByFieldCode(fieldCode);
+        try {
+            return fieldService.getFieldByFieldCode(fieldCode);
+        }catch (FieldNotFoundException e) {
+            logger.error("Field with Field Code: {} not found", fieldCode, e);
+            return new FieldErrorResponse(404, "Field not found");
+        }
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<FieldDTO> getAlFields(){
+        logger.info("All fields selected");
         return fieldService.getAllFields();
     }
 }

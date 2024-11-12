@@ -44,7 +44,7 @@ public class StaffController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<StaffResponse> getStaffById(@PathVariable String id) {
+    public ResponseEntity<StaffResponse> getStaffById(@PathVariable("id") String id) {
         logger.info("Fetching staff with ID: {}", id);
         try {
             StaffResponse staffResponse = staffService.getStaffById(id);

@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table
-@Entity(name = "equipment")
+@Entity
+@Table(name = "equipment")
 public class Equipment {
     @Id
     @Column(name = "equipment_id")
@@ -28,5 +28,4 @@ public class Equipment {
     @ManyToOne(optional = true)
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;
-
 }

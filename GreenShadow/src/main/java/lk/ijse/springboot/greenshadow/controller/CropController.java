@@ -119,11 +119,13 @@ public class CropController {
     }
     @GetMapping(value = "/{crop_code}", produces = MediaType.APPLICATION_JSON_VALUE)
     public CropResponse getSelectedCrop(@PathVariable("crop_code") String cropCode){
+        logger.info("Fetching crop with Crop code: {}", cropCode);
         return cropService.getSelectedCrop(cropCode);
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public List<CropDTO> getAllCrops(){
+        logger.info("Fetching all crops");
         return cropService.getAllCrops();
     }
 }
