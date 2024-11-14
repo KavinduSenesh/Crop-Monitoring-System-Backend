@@ -15,7 +15,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "staff")
-public class Staff {
+public class Staff{
     @Id
     @Column(name = "staff_member_id")
     private String staffId;
@@ -44,7 +44,7 @@ public class Staff {
     private String addressLine5;
     @Column(name = "contact_no")
     private String contactNo;
-    @Column(name = "email")
+    @Column(name = "email", unique = true)
     private String email;
     @Column(name = "role")
     @Enumerated(EnumType.STRING)

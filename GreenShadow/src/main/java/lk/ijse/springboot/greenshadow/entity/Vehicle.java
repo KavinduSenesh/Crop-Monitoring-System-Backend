@@ -8,13 +8,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table
-@Entity(name = "vehicle")
+@Table(name = "vehicle")
+@Entity
 public class Vehicle {
     @Id
     @Column(name = "vehicle_code")
     private String vehicleCode;
-    @Column(name = "license_plate_number")
+    @Column(name = "license_plate_number", unique = true)
     private String licensePlateNumber;
     @Column(name = "vehicle_category")
     private String vehicleCategory;

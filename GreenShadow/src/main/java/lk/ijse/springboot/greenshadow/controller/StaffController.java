@@ -3,7 +3,7 @@ package lk.ijse.springboot.greenshadow.controller;
 import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
-import lk.ijse.springboot.greenshadow.exception.NotFoundException;
+import lk.ijse.springboot.greenshadow.exception.StaffNotFoundException;
 import lk.ijse.springboot.greenshadow.service.StaffService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -24,28 +24,33 @@ public class StaffController {
 
     @PostMapping
     public ResponseEntity<?> saveStaff(@RequestBody StaffDTO staffDTO) {
-        logger.info("Attempting to save staff: {}", staffDTO);
-        try {
-            staffService.saveStaff(staffDTO);
-            logger.info("Successfully saved staff with ID: {}", staffDTO.getStaffId());
-            return new ResponseEntity<>(HttpStatus.CREATED);
-        } catch (DataPersistFailedException e) {
-            logger.warn("Failed to save staff: {}", e.getMessage());
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        } catch (Exception e) {
-            logger.error("Unexpected error occurred while saving staff: {}", e.getMessage(), e);
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+            if (staffDTO == null ){
+                logger.warn("Invalid request: Staff object is null");
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            } else {
+            logger.info("Attempting to save staff: {}", staffDTO);
+            try {
+                staffService.saveStaff(staffDTO);
+                logger.info("Successfully saved staff with ID: {}", staffDTO.getStaffId());
+                return new ResponseEntity<>(HttpStatus.CREATED);
+            } catch (DataPersistFailedException e) {
+                logger.warn("Failed to save staff: {}", e.getMessage());
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            } catch (Exception e) {
+                logger.error("Unexpected error occurred while saving staff: {}", e.getMessage(), e);
+                return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+            }
         }
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<StaffResponse> getStaffById(@PathVariable String id) {
+    public ResponseEntity<StaffResponse> getStaffById(@PathVariable("id") String id) {
         logger.info("Fetching staff with ID: {}", id);
         try {
             StaffResponse staffResponse = staffService.getStaffById(id);
             logger.info("Successfully fetched staff with ID: {}", id);
             return new ResponseEntity<>(staffResponse, HttpStatus.OK);
-        } catch (NotFoundException e) {
+        } catch (StaffNotFoundException e) {
             logger.warn("Failed to fetch staff: {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         } catch (Exception e) {
@@ -67,7 +72,7 @@ public class StaffController {
             staffService.deleteStaff(id);
             logger.info("Successfully deleted staff with ID: {}", id);
             return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NotFoundException e) {
+        } catch (StaffNotFoundException e) {
             logger.warn("Failed to delete staff: {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }catch (Exception e){
@@ -83,7 +88,7 @@ public class StaffController {
             staffService.updateStaff(id, staffDTO);
             logger.info("Successfully updated staff with ID: {}", id);
             return new ResponseEntity<>(HttpStatus.OK);
-        } catch (NotFoundException | DataPersistFailedException e) {
+        } catch (StaffNotFoundException | DataPersistFailedException e) {
             logger.warn("Failed to update staff: {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         } catch (Exception e) {

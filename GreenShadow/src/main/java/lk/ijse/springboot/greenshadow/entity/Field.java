@@ -13,7 +13,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "fields")
-public class Field {
+public class Field implements SuperEntity {
     @Id
     @Column(name = "field_code")
     private String fieldCode;
@@ -34,12 +34,12 @@ public class Field {
     @ManyToMany
     @JoinTable(
             name = "field_staff",
-            joinColumns = @JoinColumn(name = "field_code"),
-            inverseJoinColumns = @JoinColumn(name = "staff_member_id")
+            joinColumns = @JoinColumn(name = "field_code", referencedColumnName = "field_code"),
+            inverseJoinColumns = @JoinColumn(name = "staff_member_id", referencedColumnName = "staff_member_id")
     )
     private List<Staff> staff;
 
-    @OneToMany(mappedBy = "field",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "field")
     private List<Equipment> equipment;
 
     @ManyToMany(mappedBy = "field")

@@ -8,16 +8,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table
-@Entity(name = "equipment")
+@Entity
+@Table(name = "equipment")
 public class Equipment {
     @Id
     @Column(name = "equipment_id")
     private String equipmentId;
     @Column(name = "equipment_name")
     private String equipmentName;
+    @Enumerated(EnumType.STRING)
     @Column(name = "equipment_type")
     private EquipmentType equipmentType;
+    @Enumerated(EnumType.STRING)
     @Column(name = "availability_status")
     private Status availabilityStatus;
 
@@ -28,5 +30,4 @@ public class Equipment {
     @ManyToOne(optional = true)
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;
-
 }

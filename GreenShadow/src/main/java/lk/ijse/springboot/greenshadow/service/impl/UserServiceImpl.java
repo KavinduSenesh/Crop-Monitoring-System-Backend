@@ -5,7 +5,6 @@ import lk.ijse.springboot.greenshadow.customObj.UserResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.UserDTO;
 import lk.ijse.springboot.greenshadow.entity.User;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
-import lk.ijse.springboot.greenshadow.exception.NotFoundException;
 import lk.ijse.springboot.greenshadow.repository.UserRepository;
 import lk.ijse.springboot.greenshadow.service.UserService;
 import lk.ijse.springboot.greenshadow.util.Mapping;
@@ -53,7 +52,7 @@ public class UserServiceImpl implements UserService {
         if (existsUser.isPresent()){
             existsUser.get().setPassword(userDTO.getPassword());
         }else {
-            throw new NotFoundException("User not exists");
+//            throw new NotFoundException("User not exists");
         }
     }
 }
