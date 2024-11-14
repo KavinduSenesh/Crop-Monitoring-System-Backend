@@ -23,7 +23,7 @@ import java.util.List;
 public class EquipmentController {
 
     private final EquipmentService equipmentService;
-    static Logger logger = LoggerFactory.getLogger(EquipmentController.class);
+    private static final Logger logger = LoggerFactory.getLogger(EquipmentController.class);
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Void> saveEquipment(@Valid @RequestBody EquipmentDTO equipment){
@@ -93,7 +93,7 @@ public class EquipmentController {
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public List getAllEquipments() {
+    public List<EquipmentDTO> getAllEquipments() {
         logger.info("Request received to get all equipments");
         return equipmentService.getAllEquipments();
     }

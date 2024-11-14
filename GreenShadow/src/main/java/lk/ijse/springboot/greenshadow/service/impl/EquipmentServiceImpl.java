@@ -1,6 +1,5 @@
 package lk.ijse.springboot.greenshadow.service.impl;
 
-import jakarta.validation.constraints.Size;
 import lk.ijse.springboot.greenshadow.dto.impl.EquipmentDTO;
 import lk.ijse.springboot.greenshadow.entity.Equipment;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;

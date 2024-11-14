@@ -24,7 +24,7 @@ import java.util.List;
 @RequestMapping("api/v1/field")
 public class FieldController {
 
-    private final static Logger logger = LoggerFactory.getLogger(FieldController.class);
+    private static final Logger logger = LoggerFactory.getLogger(FieldController.class);
 
     private final FieldService fieldService;
 

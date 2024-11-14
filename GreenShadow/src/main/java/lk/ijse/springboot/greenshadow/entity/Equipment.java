@@ -22,9 +22,11 @@ public class Equipment {
     @Enumerated(EnumType.STRING)
     @Column(name = "availability_status")
     private Status availabilityStatus;
+
     @OneToOne(optional = true)
     @JoinColumn(name = "staff_member_id", referencedColumnName = "staff_member_id")
     private Staff staff;
+
     @ManyToOne(optional = true)
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;

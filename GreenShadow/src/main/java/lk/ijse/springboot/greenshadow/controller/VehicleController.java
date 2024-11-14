@@ -23,7 +23,7 @@ import java.util.List;
 @RequestMapping("/api/v1/vehicle")
 public class VehicleController {
     private final VehicleService vehicleService;
-    static Logger logger = LoggerFactory.getLogger(VehicleController.class);
+    private static final Logger logger = LoggerFactory.getLogger(VehicleController.class);
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Void> saveVehicle(@Valid @RequestBody VehicleDTO vehicleDTO){

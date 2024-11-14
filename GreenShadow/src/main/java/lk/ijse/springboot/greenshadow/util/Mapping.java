@@ -71,4 +71,13 @@ public class Mapping {
     public List convertEquipmentListToEquipmentDTOList(List<Equipment> all){
         return mapper.map(all, List.class);
     }
+    public MonitoringLog convertMonitoringLogDTOToMonitoringLog(MonitoringLogDTO monitoringLogDTO){
+        return mapper.map(monitoringLogDTO, MonitoringLog.class);
+    }
+    public MonitoringLogDTO convertMonitoringLogToMonitoringLogDTO(MonitoringLog monitoringLog){
+        return mapper.map(monitoringLog, MonitoringLogDTO.class);
+    }
+    public List convertMonitoringLogListToConvertMonitoringLogDTOList(List<MonitoringLog> all){
+        return mapper.map(all, List.class);
+    }
 }

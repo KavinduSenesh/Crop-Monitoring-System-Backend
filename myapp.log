@@ -26532,3 +26532,955 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'S
 2024-11-12 12:28:44 - Request received to get all equipments
 2024-11-12 12:28:45 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
 2024-11-12 12:28:45 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-12 12:33:08 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-12 12:33:08 - Starting GreenShadowApplication using Java 17.0.11 with PID 7480 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-12 12:33:08 - The following 1 profile is active: "dev"
+2024-11-12 12:33:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12 12:33:10 - Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2024-11-12 12:33:10 - Tomcat initialized with port 5055 (http)
+2024-11-12 12:33:10 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-12 12:33:10 - Starting service [Tomcat]
+2024-11-12 12:33:10 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-12 12:33:10 - Initializing Spring embedded WebApplicationContext
+2024-11-12 12:33:10 - Root WebApplicationContext: initialization completed in 2148 ms
+2024-11-12 12:33:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-12 12:33:11 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12 12:33:11 - HHH000026: Second-level cache disabled
+2024-11-12 12:33:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-12 12:33:11 - HikariPool-1 - Starting...
+2024-11-12 12:33:12 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b506a79
+2024-11-12 12:33:12 - HikariPool-1 - Start completed.
+2024-11-12 12:33:12 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-12 12:33:12 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-12 12:33:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-12 12:33:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12 12:33:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-12 12:33:15 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-12 12:33:15 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-12 12:33:15 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-12 12:33:15 - Started GreenShadowApplication in 7.015 seconds (process running for 7.948)
+2024-11-12 12:33:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-12 12:33:15 - Initializing Servlet 'dispatcherServlet'
+2024-11-12 12:33:15 - Completed initialization in 6 ms
+2024-11-12 12:33:18 - Request received to get all equipments
+2024-11-12 12:33:18 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-12 12:33:18 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-12 12:34:12 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-12 12:34:12 - Starting GreenShadowApplication using Java 17.0.11 with PID 15864 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-12 12:34:12 - The following 1 profile is active: "dev"
+2024-11-12 12:34:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-12 12:34:14 - Finished Spring Data repository scanning in 102 ms. Found 6 JPA repository interfaces.
+2024-11-12 12:34:15 - Tomcat initialized with port 5055 (http)
+2024-11-12 12:34:15 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-12 12:34:15 - Starting service [Tomcat]
+2024-11-12 12:34:15 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-12 12:34:15 - Initializing Spring embedded WebApplicationContext
+2024-11-12 12:34:15 - Root WebApplicationContext: initialization completed in 2663 ms
+2024-11-12 12:34:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-12 12:34:16 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-12 12:34:16 - HHH000026: Second-level cache disabled
+2024-11-12 12:34:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-12 12:34:16 - HikariPool-1 - Starting...
+2024-11-12 12:34:17 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@250e8712
+2024-11-12 12:34:17 - HikariPool-1 - Start completed.
+2024-11-12 12:34:17 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-12 12:34:17 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-12 12:34:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-12 12:34:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-12 12:34:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-12 12:34:20 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-12 12:34:20 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-12 12:34:20 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-12 12:34:20 - Started GreenShadowApplication in 8.112 seconds (process running for 10.087)
+2024-11-12 12:34:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-12 12:34:21 - Initializing Servlet 'dispatcherServlet'
+2024-11-12 12:34:21 - Completed initialization in 1 ms
+2024-11-12 12:34:22 - Request received to get all equipments
+2024-11-12 12:34:22 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-12 12:34:22 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-12 12:34:25 - Request received to get all equipments
+2024-11-12 12:34:25 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-12 12:34:25 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-12 12:34:35 - Request received to get all equipments
+2024-11-12 12:34:36 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-12 12:34:36 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 14:18:46 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:18:46 - Starting GreenShadowApplication using Java 17.0.11 with PID 7012 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:18:46 - The following 1 profile is active: "dev"
+2024-11-14 14:18:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:18:49 - Finished Spring Data repository scanning in 180 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:18:50 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:18:50 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:18:50 - Starting service [Tomcat]
+2024-11-14 14:18:50 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:18:50 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:18:50 - Root WebApplicationContext: initialization completed in 3322 ms
+2024-11-14 14:18:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:18:50 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:18:50 - HHH000026: Second-level cache disabled
+2024-11-14 14:18:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:18:51 - HikariPool-1 - Starting...
+2024-11-14 14:18:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43b45ce4
+2024-11-14 14:18:51 - HikariPool-1 - Start completed.
+2024-11-14 14:18:52 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:18:52 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:18:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:18:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:18:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:18:55 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:18:55 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:18:55 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:18:55 - Started GreenShadowApplication in 9.93 seconds (process running for 11.905)
+2024-11-14 14:18:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:18:56 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:18:56 - Completed initialization in 5 ms
+2024-11-14 14:18:56 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:18:59 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:20:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:20:52 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:20:52 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:21:04 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:21:04 - Starting GreenShadowApplication using Java 17.0.11 with PID 14752 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:21:04 - The following 1 profile is active: "dev"
+2024-11-14 14:21:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:21:05 - Finished Spring Data repository scanning in 88 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:21:06 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:21:06 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:21:06 - Starting service [Tomcat]
+2024-11-14 14:21:06 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:21:06 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:21:06 - Root WebApplicationContext: initialization completed in 2206 ms
+2024-11-14 14:21:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:21:07 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:21:07 - HHH000026: Second-level cache disabled
+2024-11-14 14:21:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:21:07 - HikariPool-1 - Starting...
+2024-11-14 14:21:08 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7030b74c
+2024-11-14 14:21:08 - HikariPool-1 - Start completed.
+2024-11-14 14:21:08 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:21:08 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:21:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:21:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:21:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:21:11 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:21:11 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:21:11 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:21:11 - Started GreenShadowApplication in 8.063 seconds (process running for 10.164)
+2024-11-14 14:21:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:21:12 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:21:12 - Completed initialization in 3 ms
+2024-11-14 14:21:12 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:14 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:15 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:16 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:17 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:18 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:18 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:19 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:20 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:21:30 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:26:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:26:06 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:26:06 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:26:15 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:26:15 - Starting GreenShadowApplication using Java 17.0.11 with PID 14608 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:26:15 - The following 1 profile is active: "dev"
+2024-11-14 14:26:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:26:16 - Finished Spring Data repository scanning in 85 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:26:17 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:26:17 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:26:17 - Starting service [Tomcat]
+2024-11-14 14:26:17 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:26:17 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:26:17 - Root WebApplicationContext: initialization completed in 2118 ms
+2024-11-14 14:26:17 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:26:17 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:26:17 - HHH000026: Second-level cache disabled
+2024-11-14 14:26:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:26:18 - HikariPool-1 - Starting...
+2024-11-14 14:26:18 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22854f2b
+2024-11-14 14:26:18 - HikariPool-1 - Start completed.
+2024-11-14 14:26:18 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:26:18 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:26:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:26:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:26:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:26:21 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:26:21 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:26:21 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:26:21 - Started GreenShadowApplication in 7.001 seconds (process running for 8.16)
+2024-11-14 14:26:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:26:22 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:26:22 - Completed initialization in 2 ms
+2024-11-14 14:26:58 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:27:54 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'fieldCode' for method parameter type List is not present]
+2024-11-14 14:28:54 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:28:54 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:28:54 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:29:03 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:29:03 - Starting GreenShadowApplication using Java 17.0.11 with PID 14636 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:29:03 - The following 1 profile is active: "dev"
+2024-11-14 14:29:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:29:05 - Finished Spring Data repository scanning in 92 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:29:06 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:29:06 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:29:06 - Starting service [Tomcat]
+2024-11-14 14:29:06 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:29:06 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:29:06 - Root WebApplicationContext: initialization completed in 2220 ms
+2024-11-14 14:29:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:29:06 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:29:06 - HHH000026: Second-level cache disabled
+2024-11-14 14:29:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:29:07 - HikariPool-1 - Starting...
+2024-11-14 14:29:07 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65259737
+2024-11-14 14:29:07 - HikariPool-1 - Start completed.
+2024-11-14 14:29:07 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:29:07 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:29:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:29:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:29:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:29:10 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:29:10 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:29:10 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:29:10 - Started GreenShadowApplication in 7.127 seconds (process running for 8.553)
+2024-11-14 14:29:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:29:11 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:29:11 - Completed initialization in 6 ms
+2024-11-14 14:29:13 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:29:13 - Request received to save monitoring log with Observation: mru observation eka
+2024-11-14 14:29:13 - Monitoring Log with Observation: mru observation eka saved successfully
+2024-11-14 14:29:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:29:42 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:29:42 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:29:49 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:29:49 - Starting GreenShadowApplication using Java 17.0.11 with PID 9708 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:29:49 - The following 1 profile is active: "dev"
+2024-11-14 14:29:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:29:50 - Finished Spring Data repository scanning in 89 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:29:51 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:29:51 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:29:51 - Starting service [Tomcat]
+2024-11-14 14:29:51 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:29:51 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:29:51 - Root WebApplicationContext: initialization completed in 2064 ms
+2024-11-14 14:29:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:29:51 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:29:51 - HHH000026: Second-level cache disabled
+2024-11-14 14:29:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:29:51 - HikariPool-1 - Starting...
+2024-11-14 14:29:52 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@417751d3
+2024-11-14 14:29:52 - HikariPool-1 - Start completed.
+2024-11-14 14:29:52 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:29:52 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:29:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:29:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:29:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:29:55 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:29:55 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:29:55 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:29:55 - Started GreenShadowApplication in 6.534 seconds (process running for 7.558)
+2024-11-14 14:29:55 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:29:55 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:29:55 - Completed initialization in 2 ms
+2024-11-14 14:29:57 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:29:57 - Request received to save monitoring log with Observation: mru observation eka
+2024-11-14 14:29:57 - Monitoring Log with Observation: mru observation eka saved successfully
+2024-11-14 14:30:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:30:26 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:30:26 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:30:34 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:30:34 - Starting GreenShadowApplication using Java 17.0.11 with PID 4176 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:30:34 - The following 1 profile is active: "dev"
+2024-11-14 14:30:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:30:35 - Finished Spring Data repository scanning in 85 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:30:36 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:30:36 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:30:36 - Starting service [Tomcat]
+2024-11-14 14:30:36 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:30:36 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:30:36 - Root WebApplicationContext: initialization completed in 2066 ms
+2024-11-14 14:30:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:30:36 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:30:36 - HHH000026: Second-level cache disabled
+2024-11-14 14:30:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:30:37 - HikariPool-1 - Starting...
+2024-11-14 14:30:37 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b9c716f
+2024-11-14 14:30:37 - HikariPool-1 - Start completed.
+2024-11-14 14:30:37 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:30:37 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:30:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:30:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:30:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:30:40 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:30:40 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:30:40 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:30:40 - Started GreenShadowApplication in 6.883 seconds (process running for 7.952)
+2024-11-14 14:30:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:30:41 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:30:41 - Completed initialization in 4 ms
+2024-11-14 14:33:15 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:33:15 - Request received to save monitoring log with Observation: mru observation eka
+2024-11-14 14:33:15 - Monitoring Log with Observation: mru observation eka saved successfully
+2024-11-14 14:33:48 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:33:48 - Request received to save monitoring log with Observation: mruobservationeka
+2024-11-14 14:33:49 - Monitoring Log with Observation: mruobservationeka saved successfully
+2024-11-14 14:34:16 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:34:16 - Request received to save monitoring log with Observation: mruobservationeka
+2024-11-14 14:34:17 - Monitoring Log with Observation: mruobservationeka saved successfully
+2024-11-14 14:37:59 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:37:59 - Starting GreenShadowApplication using Java 17.0.11 with PID 13748 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:37:59 - The following 1 profile is active: "dev"
+2024-11-14 14:38:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:38:01 - Finished Spring Data repository scanning in 86 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:38:01 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:38:01 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:38:01 - Starting service [Tomcat]
+2024-11-14 14:38:01 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:38:01 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:38:01 - Root WebApplicationContext: initialization completed in 2372 ms
+2024-11-14 14:38:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:38:02 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:38:02 - HHH000026: Second-level cache disabled
+2024-11-14 14:38:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:38:02 - HikariPool-1 - Starting...
+2024-11-14 14:38:03 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19ce19b7
+2024-11-14 14:38:03 - HikariPool-1 - Start completed.
+2024-11-14 14:38:03 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:38:03 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:38:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:38:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:38:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:38:06 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:38:06 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:38:06 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:38:06 - Started GreenShadowApplication in 7.512 seconds (process running for 9.341)
+2024-11-14 14:38:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:38:07 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:38:07 - Completed initialization in 1 ms
+2024-11-14 14:38:24 - Request Parameters: fieldCode=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7], cropCode=[C-f63129f6-1af0-42f4-9cdf-aa15873eafc4], staffIds=[S-62b50b59-d4f7-4e60-8b18-4dd7cb83e6b6]
+2024-11-14 14:38:24 - Request received to save monitoring log with Observation: mruobservationeka
+2024-11-14 14:38:24 - Monitoring Log with Observation: mruobservationeka saved successfully
+2024-11-14 14:41:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:41:24 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:41:24 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:41:37 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:41:37 - Starting GreenShadowApplication using Java 17.0.11 with PID 14668 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:41:37 - The following 1 profile is active: "dev"
+2024-11-14 14:41:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:41:39 - Finished Spring Data repository scanning in 303 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:41:42 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:41:42 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:41:42 - Starting service [Tomcat]
+2024-11-14 14:41:42 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:41:42 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:41:42 - Starting GreenShadowApplication using Java 17.0.11 with PID 6008 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:41:42 - The following 1 profile is active: "dev"
+2024-11-14 14:41:42 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:41:42 - Root WebApplicationContext: initialization completed in 5260 ms
+2024-11-14 14:41:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:41:43 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:41:43 - HHH000026: Second-level cache disabled
+2024-11-14 14:41:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:41:43 - HikariPool-1 - Starting...
+2024-11-14 14:41:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:41:44 - Finished Spring Data repository scanning in 97 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:41:44 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f6bc75c
+2024-11-14 14:41:44 - HikariPool-1 - Start completed.
+2024-11-14 14:41:44 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:41:44 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:41:45 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:41:45 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:41:45 - Starting service [Tomcat]
+2024-11-14 14:41:45 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:41:45 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:41:45 - Root WebApplicationContext: initialization completed in 2666 ms
+2024-11-14 14:41:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:41:45 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:41:45 - HHH000026: Second-level cache disabled
+2024-11-14 14:41:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:41:46 - HikariPool-1 - Starting...
+2024-11-14 14:41:46 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:41:46 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46748b04
+2024-11-14 14:41:46 - HikariPool-1 - Start completed.
+2024-11-14 14:41:46 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:41:46 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:41:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:41:48 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:41:48 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'monitoringLogController' defined in file [D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main\lk\ijse\springboot\greenshadow\controller\MonitoringLogController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'lk.ijse.springboot.greenshadow.service.MonitoringLogService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-11-14 14:41:48 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:41:48 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:41:48 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:41:48 - Stopping service [Tomcat]
+2024-11-14 14:41:48 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-14 14:41:48 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:41:48 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in lk.ijse.springboot.greenshadow.controller.MonitoringLogController required a bean of type 'lk.ijse.springboot.greenshadow.service.MonitoringLogService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'lk.ijse.springboot.greenshadow.service.MonitoringLogService' in your configuration.
+
+2024-11-14 14:41:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:41:51 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:41:51 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:41:51 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:41:51 - Started GreenShadowApplication in 9.312 seconds (process running for 11.704)
+2024-11-14 14:41:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:41:51 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:41:51 - Completed initialization in 4 ms
+2024-11-14 14:43:02 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'observation' for method parameter type String is not present]
+2024-11-14 14:43:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:43:07 - HikariPool-1 - Shutdown initiated...
+2024-11-14 14:43:07 - HikariPool-1 - Shutdown completed.
+2024-11-14 14:43:11 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 14:43:11 - Starting GreenShadowApplication using Java 17.0.11 with PID 15648 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 14:43:11 - The following 1 profile is active: "dev"
+2024-11-14 14:43:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 14:43:12 - Finished Spring Data repository scanning in 95 ms. Found 7 JPA repository interfaces.
+2024-11-14 14:43:13 - Tomcat initialized with port 5055 (http)
+2024-11-14 14:43:13 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:43:13 - Starting service [Tomcat]
+2024-11-14 14:43:13 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 14:43:13 - Initializing Spring embedded WebApplicationContext
+2024-11-14 14:43:13 - Root WebApplicationContext: initialization completed in 2310 ms
+2024-11-14 14:43:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 14:43:14 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 14:43:14 - HHH000026: Second-level cache disabled
+2024-11-14 14:43:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 14:43:14 - HikariPool-1 - Starting...
+2024-11-14 14:43:15 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f60c14e
+2024-11-14 14:43:15 - HikariPool-1 - Start completed.
+2024-11-14 14:43:15 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 14:43:15 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 14:43:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 14:43:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 14:43:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 14:43:18 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 14:43:18 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 14:43:18 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 14:43:18 - Started GreenShadowApplication in 7.77 seconds (process running for 8.814)
+2024-11-14 14:43:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 14:43:18 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 14:43:18 - Completed initialization in 2 ms
+2024-11-14 14:43:50 - Internal server error while saving crop: CropDTO(cropCode=C-e993d247-2f45-4852-bcb5-794ac081550f, cropCommonName=tomato , cropScientificName=sc tomato, cropImage=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, category=fruit, cropSeason=winter, fieldCode=F-48b5f610-fb68-4db9-a946-fc29f35b54c7, monitoringLogCodes=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7])
+org.springframework.orm.jpa.JpaObjectRetrievalFailureException: Unable to find lk.ijse.springboot.greenshadow.entity.Field with id F-48b5f610-fb68-4db9-a946-fc29f35b54c7
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:376)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:246)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy148.save(Unknown Source)
+	at lk.ijse.springboot.greenshadow.service.impl.CropServiceImpl.saveCrop(CropServiceImpl.java:30)
+	at lk.ijse.springboot.greenshadow.controller.CropController.saveCrop(CropController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: jakarta.persistence.EntityNotFoundException: Unable to find lk.ijse.springboot.greenshadow.entity.Field with id F-48b5f610-fb68-4db9-a946-fc29f35b54c7
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:190)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:212)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1225)
+	at org.hibernate.internal.SessionImpl.internalLoad(SessionImpl.java:1071)
+	at org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:700)
+	at org.hibernate.type.EntityType.resolve(EntityType.java:423)
+	at org.hibernate.type.EntityType.replace(EntityType.java:339)
+	at org.hibernate.type.AbstractType.replace(AbstractType.java:125)
+	at org.hibernate.type.TypeHelper.replace(TypeHelper.java:154)
+	at org.hibernate.event.internal.DefaultMergeEventListener.copyValues(DefaultMergeEventListener.java:622)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:297)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:418)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:210)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:148)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:132)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:86)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:850)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:836)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy145.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy145.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:631)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 63 common frames omitted
+2024-11-14 14:43:57 - Internal server error while saving crop: CropDTO(cropCode=C-7e634c95-1ce0-4132-bd37-507bf02473ae, cropCommonName=tomato , cropScientificName=sc tomato, cropImage=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, category=fruit, cropSeason=winter, fieldCode=F-48b5f610-fb68-4db9-a946-fc29f35b54c7, monitoringLogCodes=[F-48b5f610-fb68-4db9-a946-fc29f35b54c7])
+org.springframework.orm.jpa.JpaObjectRetrievalFailureException: Unable to find lk.ijse.springboot.greenshadow.entity.Field with id F-48b5f610-fb68-4db9-a946-fc29f35b54c7
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:376)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:246)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy148.save(Unknown Source)
+	at lk.ijse.springboot.greenshadow.service.impl.CropServiceImpl.saveCrop(CropServiceImpl.java:30)
+	at lk.ijse.springboot.greenshadow.controller.CropController.saveCrop(CropController.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: jakarta.persistence.EntityNotFoundException: Unable to find lk.ijse.springboot.greenshadow.entity.Field with id F-48b5f610-fb68-4db9-a946-fc29f35b54c7
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:190)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:212)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadWithRegularProxy(DefaultLoadEventListener.java:290)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:242)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:111)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:68)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1225)
+	at org.hibernate.internal.SessionImpl.internalLoad(SessionImpl.java:1071)
+	at org.hibernate.type.EntityType.resolveIdentifier(EntityType.java:700)
+	at org.hibernate.type.EntityType.resolve(EntityType.java:423)
+	at org.hibernate.type.EntityType.replace(EntityType.java:339)
+	at org.hibernate.type.AbstractType.replace(AbstractType.java:125)
+	at org.hibernate.type.TypeHelper.replace(TypeHelper.java:154)
+	at org.hibernate.event.internal.DefaultMergeEventListener.copyValues(DefaultMergeEventListener.java:622)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:297)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:418)
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:210)
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:148)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:132)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:86)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:850)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:836)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy145.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy145.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:631)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	... 63 common frames omitted
+2024-11-14 14:44:13 - Attempting to save staff: StaffDTO(staffId=null, firstName=caharaka, lastName=mihira, designation=toilet, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=IL, addressLine5=62701, contactNo=123-456-7890, email=john.senes@ex123ample.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-11-14 14:44:13 - Successfully saved staff with ID: S-1ff2ee38-fee9-4cbd-92aa-70767631793b
+2024-11-14 14:44:25 - Fetching all staff
+2024-11-14 14:44:35 - Vehicle with vehicle code: V-957f109c-50df-48b5-97b4-163d6b55374f saved successfully
+2024-11-14 14:44:47 - Field with Field Code: F-35352536-11ed-438b-a095-951c959a8f3d saved successfully
+2024-11-14 14:44:52 - All fields selected
+2024-11-14 14:44:52 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-14 14:44:52 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 14:45:31 - Equipment with Equipment Code: E-7b5042dc-89c8-45aa-a633-a4ed2cc5480e saved successfully
+2024-11-14 14:46:05 - Crop with Crop name: tomato  saved successfully
+2024-11-14 14:46:26 - Fetching all staff
+2024-11-14 14:46:26 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-14 14:46:26 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 14:46:43 - Attempting to save staff: StaffDTO(staffId=null, firstName=caharaka, lastName=mihira, designation=toilet, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=IL, addressLine5=62701, contactNo=123-456-7890, email=john.senes@ex123ample.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-11-14 14:46:43 - SQL Error: 1062, SQLState: 23000
+2024-11-14 14:46:43 - Duplicate entry 'john.senes@ex123ample.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+2024-11-14 14:46:43 - Unexpected error occurred while saving staff: could not execute statement [Duplicate entry 'john.senes@ex123ample.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'john.senes@ex123ample.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at lk.ijse.springboot.greenshadow.service.impl.StaffServiceImpl$$SpringCGLIB$$0.saveStaff(<generated>)
+	at lk.ijse.springboot.greenshadow.controller.StaffController.saveStaff(StaffController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Duplicate entry 'john.senes@ex123ample.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.MySQLDialect.lambda$buildSQLExceptionConversionDelegate$3(MySQLDialect.java:1243)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'john.senes@ex123ample.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1054)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1003)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1312)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:988)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 85 common frames omitted
+2024-11-14 14:47:09 - Fetching all crops
+2024-11-14 14:47:22 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'observation' for method parameter type String is not present]
+2024-11-14 14:47:27 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'observation' for method parameter type String is not present]
+2024-11-14 14:47:39 - Crop with Crop name: tomato  saved successfully
+2024-11-14 14:47:51 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'observation' for method parameter type String is not present]
+2024-11-14 14:48:03 - Fetching all staff
+2024-11-14 14:48:03 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-14 14:48:03 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 14:49:38 - Fetching all staff
+2024-11-14 14:49:38 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-14 14:49:38 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 14:54:38 - Request Parameters: fieldCode=[F-35352536-11ed-438b-a095-951c959a8f3d], cropCode=[C-477e2d01-25cf-408e-ba45-5cded8f253c3], staffIds=[S-1ff2ee38-fee9-4cbd-92aa-70767631793b]
+2024-11-14 14:54:38 - Request received to save monitoring log with Observation: mru neda
+2024-11-14 14:54:38 - Monitoring Log with Observation: mru neda saved successfully
+2024-11-14 14:54:52 - Request Parameters: fieldCode=[F-35352536-11ed-438b-a095-951c959a8f3d], cropCode=[C-477e2d01-25cf-408e-ba45-5cded8f253c3], staffIds=[S-1ff2ee38-fee9-4cbd-92aa-70767631793b]
+2024-11-14 14:54:52 - Request received to save monitoring log with Observation: mru neda
+2024-11-14 14:54:52 - Monitoring Log with Observation: mru neda saved successfully
+2024-11-14 19:38:48 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 19:38:48 - Starting GreenShadowApplication using Java 17.0.11 with PID 7064 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 19:38:48 - The following 1 profile is active: "dev"
+2024-11-14 19:38:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 19:38:50 - Finished Spring Data repository scanning in 105 ms. Found 7 JPA repository interfaces.
+2024-11-14 19:38:51 - Tomcat initialized with port 5055 (http)
+2024-11-14 19:38:51 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:38:51 - Starting service [Tomcat]
+2024-11-14 19:38:51 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 19:38:51 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:38:51 - Root WebApplicationContext: initialization completed in 2484 ms
+2024-11-14 19:38:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 19:38:51 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 19:38:51 - HHH000026: Second-level cache disabled
+2024-11-14 19:38:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 19:38:52 - HikariPool-1 - Starting...
+2024-11-14 19:38:52 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a5efbb9
+2024-11-14 19:38:52 - HikariPool-1 - Start completed.
+2024-11-14 19:38:52 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 19:38:52 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 19:38:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 19:38:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 19:38:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 19:38:56 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 19:38:56 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:38:56 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 19:38:56 - Started GreenShadowApplication in 7.988 seconds (process running for 9.695)
+2024-11-14 19:38:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:38:56 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:38:56 - Completed initialization in 1 ms
+2024-11-14 19:39:39 - Request received to get monitoring log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f
+2024-11-14 19:40:48 - Request received to get all monitoring logs
+2024-11-14 19:40:49 - Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)
+2024-11-14 19:40:49 - Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Document nesting depth (1001) exceeds the maximum allowed (1000, from `StreamWriteConstraints.getMaxNestingDepth()`)]
+2024-11-14 19:43:44 - Request received to update monitoring log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f
+2024-11-14 19:43:44 - Monitoring Log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f updated successfully
+2024-11-14 19:46:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 19:46:08 - HikariPool-1 - Shutdown initiated...
+2024-11-14 19:46:08 - HikariPool-1 - Shutdown completed.
+2024-11-14 19:46:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 19:46:21 - Starting GreenShadowApplication using Java 17.0.11 with PID 7496 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 19:46:21 - The following 1 profile is active: "dev"
+2024-11-14 19:46:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 19:46:23 - Finished Spring Data repository scanning in 110 ms. Found 7 JPA repository interfaces.
+2024-11-14 19:46:24 - Tomcat initialized with port 5055 (http)
+2024-11-14 19:46:24 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:46:24 - Starting service [Tomcat]
+2024-11-14 19:46:24 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 19:46:24 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:46:24 - Root WebApplicationContext: initialization completed in 2482 ms
+2024-11-14 19:46:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 19:46:24 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 19:46:24 - HHH000026: Second-level cache disabled
+2024-11-14 19:46:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 19:46:25 - HikariPool-1 - Starting...
+2024-11-14 19:46:25 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b240276
+2024-11-14 19:46:25 - HikariPool-1 - Start completed.
+2024-11-14 19:46:25 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 19:46:25 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 19:46:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 19:46:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 19:46:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 19:46:28 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 19:46:28 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:46:28 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 19:46:29 - Started GreenShadowApplication in 8.007 seconds (process running for 9.706)
+2024-11-14 19:46:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:46:29 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:46:29 - Completed initialization in 2 ms
+2024-11-14 19:47:20 - Request received to update monitoring log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f
+2024-11-14 19:47:21 - Monitoring Log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f updated successfully
+2024-11-14 19:48:33 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 19:48:33 - Starting GreenShadowApplication using Java 17.0.11 with PID 13048 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 19:48:33 - The following 1 profile is active: "dev"
+2024-11-14 19:48:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 19:48:35 - Finished Spring Data repository scanning in 106 ms. Found 7 JPA repository interfaces.
+2024-11-14 19:48:36 - Tomcat initialized with port 5055 (http)
+2024-11-14 19:48:36 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:48:36 - Starting service [Tomcat]
+2024-11-14 19:48:36 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 19:48:36 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:48:36 - Root WebApplicationContext: initialization completed in 2527 ms
+2024-11-14 19:48:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 19:48:36 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 19:48:36 - HHH000026: Second-level cache disabled
+2024-11-14 19:48:36 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 19:48:37 - HikariPool-1 - Starting...
+2024-11-14 19:48:37 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b506a79
+2024-11-14 19:48:37 - HikariPool-1 - Start completed.
+2024-11-14 19:48:37 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 19:48:37 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 19:48:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 19:48:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 19:48:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 19:48:40 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 19:48:40 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 19:48:40 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 19:48:40 - Started GreenShadowApplication in 7.65 seconds (process running for 8.729)
+2024-11-14 19:48:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:48:41 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:48:41 - Completed initialization in 2 ms
+2024-11-14 19:48:45 - Request received to update monitoring log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f
+2024-11-14 19:48:45 - Monitoring Log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f updated successfully
+2024-11-14 19:49:03 - Request received to delete monitoring log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f
+2024-11-14 19:49:03 - Monitoring Log with Log Code: M-00adb5d2-eee0-4703-8502-c80dd9414d2f deleted successfully
+2024-11-14 19:49:12 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 19:49:12 - HikariPool-1 - Shutdown initiated...
+2024-11-14 19:49:12 - HikariPool-1 - Shutdown completed.

@@ -13,7 +13,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "crops")
-public class Crop {
+public class Crop implements SuperEntity {
     @Id
     @Column(name = "crop_code")
     private String cropCode;
@@ -27,10 +27,12 @@ public class Crop {
     private String category;
     @Column(name = "crop_season")
     private String cropSeason;
+
     @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;
+
     @ManyToMany(mappedBy = "crop")
     private List<MonitoringLog> monitoringLogList;
 }

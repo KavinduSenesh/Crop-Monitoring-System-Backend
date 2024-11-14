@@ -11,16 +11,16 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table
-@Entity(name = "monitoring_log")
+@Table(name = "monitoring_log")
+@Entity
 public class MonitoringLog {
     @Id
     @Column(name = "log_code")
     private String logCode;
     @Column(name = "log_date")
     private Date logDate;
-    @Column(name = "log_details")
-    private String logDetails;
+    @Column(name = "observation")
+    private String observation;
     @Column(name = "observed_image", columnDefinition = "LONGTEXT")
     private String observedImage;
 

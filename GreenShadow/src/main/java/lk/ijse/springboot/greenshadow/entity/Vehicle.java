@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table
-@Entity(name = "vehicle")
+@Table(name = "vehicle")
+@Entity
 public class Vehicle {
     @Id
     @Column(name = "vehicle_code")
@@ -24,6 +24,7 @@ public class Vehicle {
     private String status;
     @Column(name = "remarks")
     private String remarks;
+
     @ManyToOne
     @JoinColumn(name = "staff_member_id", referencedColumnName = "staff_member_id")
     private Staff staff;

@@ -22,7 +22,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CropController {
     private final CropService cropService;
-    static Logger logger = LoggerFactory.getLogger(CropController.class);
+    private static final Logger logger = LoggerFactory.getLogger(CropController.class);
 
     @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     public ResponseEntity<Void> saveCrop(
