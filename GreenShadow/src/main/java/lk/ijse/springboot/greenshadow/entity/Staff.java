@@ -15,7 +15,7 @@ import java.util.List;
 @Data
 @Entity
 @Table(name = "staff")
-public class Staff{
+public class Staff implements SuperEntity {
     @Id
     @Column(name = "staff_member_id")
     private String staffId;
