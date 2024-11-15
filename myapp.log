@@ -27484,3 +27484,190 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'j
 2024-11-14 19:49:12 - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-14 19:49:12 - HikariPool-1 - Shutdown initiated...
 2024-11-14 19:49:12 - HikariPool-1 - Shutdown completed.
+2024-11-14 22:41:28 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-14 22:41:28 - Starting GreenShadowApplication using Java 17.0.11 with PID 17772 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-14 22:41:28 - The following 1 profile is active: "dev"
+2024-11-14 22:41:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-14 22:41:30 - Finished Spring Data repository scanning in 102 ms. Found 7 JPA repository interfaces.
+2024-11-14 22:41:31 - Tomcat initialized with port 5055 (http)
+2024-11-14 22:41:31 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-14 22:41:31 - Starting service [Tomcat]
+2024-11-14 22:41:31 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-14 22:41:31 - Initializing Spring embedded WebApplicationContext
+2024-11-14 22:41:31 - Root WebApplicationContext: initialization completed in 2874 ms
+2024-11-14 22:41:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-14 22:41:32 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-14 22:41:32 - HHH000026: Second-level cache disabled
+2024-11-14 22:41:32 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-14 22:41:32 - HikariPool-1 - Starting...
+2024-11-14 22:41:33 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79ee779c
+2024-11-14 22:41:33 - HikariPool-1 - Start completed.
+2024-11-14 22:41:33 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-14 22:41:33 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-14 22:41:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-14 22:41:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-14 22:41:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-14 22:41:36 - 
+
+Using generated security password: 2850796e-98bb-4b53-8666-7fc60c0021f2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-11-14 22:41:36 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-14 22:41:36 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-14 22:41:37 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-14 22:41:37 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-14 22:41:37 - Started GreenShadowApplication in 8.752 seconds (process running for 10.765)
+2024-11-14 22:41:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 22:41:37 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 22:41:37 - Completed initialization in 5 ms
+2024-11-15 21:46:45 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-15 21:46:45 - Starting GreenShadowApplication using Java 17.0.11 with PID 3500 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-15 21:46:45 - The following 1 profile is active: "dev"
+2024-11-15 21:46:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 21:46:49 - Finished Spring Data repository scanning in 168 ms. Found 7 JPA repository interfaces.
+2024-11-15 21:46:50 - Tomcat initialized with port 5055 (http)
+2024-11-15 21:46:50 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:46:51 - Starting service [Tomcat]
+2024-11-15 21:46:51 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-15 21:46:51 - Initializing Spring embedded WebApplicationContext
+2024-11-15 21:46:51 - Root WebApplicationContext: initialization completed in 5018 ms
+2024-11-15 21:46:51 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 21:46:51 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-15 21:46:51 - HHH000026: Second-level cache disabled
+2024-11-15 21:46:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 21:46:52 - HikariPool-1 - Starting...
+2024-11-15 21:46:53 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a947424
+2024-11-15 21:46:53 - HikariPool-1 - Start completed.
+2024-11-15 21:46:53 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-15 21:46:53 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-15 21:46:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-15 21:46:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:46:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 21:46:57 - 
+
+Using generated security password: 3280a4c6-bce4-42cd-90cd-e34beb5400ff
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-11-15 21:46:57 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-11-15 21:46:57 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-15 21:46:58 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:46:58 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-15 21:46:58 - Started GreenShadowApplication in 14.192 seconds (process running for 18.604)
+2024-11-15 21:46:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 21:46:58 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 21:46:58 - Completed initialization in 8 ms
+2024-11-15 21:50:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:50:05 - HikariPool-1 - Shutdown initiated...
+2024-11-15 21:50:06 - HikariPool-1 - Shutdown completed.
+2024-11-15 21:50:54 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-15 21:50:54 - Starting GreenShadowApplication using Java 17.0.11 with PID 13196 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-15 21:50:54 - The following 1 profile is active: "dev"
+2024-11-15 21:50:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 21:50:56 - Finished Spring Data repository scanning in 121 ms. Found 7 JPA repository interfaces.
+2024-11-15 21:50:57 - Tomcat initialized with port 5055 (http)
+2024-11-15 21:50:57 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:50:57 - Starting service [Tomcat]
+2024-11-15 21:50:57 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-15 21:50:57 - Initializing Spring embedded WebApplicationContext
+2024-11-15 21:50:57 - Root WebApplicationContext: initialization completed in 3009 ms
+2024-11-15 21:50:57 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 21:50:57 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-15 21:50:57 - HHH000026: Second-level cache disabled
+2024-11-15 21:50:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 21:50:58 - HikariPool-1 - Starting...
+2024-11-15 21:50:58 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@706d2bae
+2024-11-15 21:50:58 - HikariPool-1 - Start completed.
+2024-11-15 21:50:58 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-15 21:50:58 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-15 21:51:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-15 21:51:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:51:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 21:51:02 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-15 21:51:02 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:51:02 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-15 21:51:02 - Started GreenShadowApplication in 8.693 seconds (process running for 10.899)
+2024-11-15 21:51:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 21:51:02 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 21:51:02 - Completed initialization in 7 ms
+2024-11-15 21:51:05 - Attempting to save user: UserDTO(email=testuser@example.com, password=password123, role=OTHER)
+2024-11-15 21:51:05 - Successfully saved user with email: testuser@example.com
+2024-11-15 21:51:34 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:51:38 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:51:51 - Fetching user with email: testuser@example.com
+2024-11-15 21:51:56 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:54:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:54:00 - HikariPool-1 - Shutdown initiated...
+2024-11-15 21:54:00 - HikariPool-1 - Shutdown completed.
+2024-11-15 21:54:16 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-15 21:54:16 - Starting GreenShadowApplication using Java 17.0.11 with PID 19136 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-15 21:54:16 - The following 1 profile is active: "dev"
+2024-11-15 21:54:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 21:54:19 - Finished Spring Data repository scanning in 116 ms. Found 7 JPA repository interfaces.
+2024-11-15 21:54:20 - Tomcat initialized with port 5055 (http)
+2024-11-15 21:54:20 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:54:20 - Starting service [Tomcat]
+2024-11-15 21:54:20 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-15 21:54:20 - Initializing Spring embedded WebApplicationContext
+2024-11-15 21:54:20 - Root WebApplicationContext: initialization completed in 3955 ms
+2024-11-15 21:54:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 21:54:21 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-15 21:54:21 - HHH000026: Second-level cache disabled
+2024-11-15 21:54:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 21:54:21 - HikariPool-1 - Starting...
+2024-11-15 21:54:22 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a5efbb9
+2024-11-15 21:54:22 - HikariPool-1 - Start completed.
+2024-11-15 21:54:22 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-15 21:54:22 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-15 21:54:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-15 21:54:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:54:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 21:54:26 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-15 21:54:26 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:54:26 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-15 21:54:26 - Started GreenShadowApplication in 10.555 seconds (process running for 12.981)
+2024-11-15 21:54:26 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 21:54:26 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 21:54:26 - Completed initialization in 3 ms
+2024-11-15 21:54:28 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:54:31 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:54:43 - Attempting to save user: UserDTO(email=testuser123@example.com, password=password123, role=OTHER)
+2024-11-15 21:54:43 - Successfully saved user with email: testuser123@example.com
+2024-11-15 21:55:00 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:56:25 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:58:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:58:07 - HikariPool-1 - Shutdown initiated...
+2024-11-15 21:58:07 - HikariPool-1 - Shutdown completed.
+2024-11-15 21:58:17 - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-15 21:58:18 - Starting GreenShadowApplication using Java 17.0.11 with PID 19596 (D:\GDSE 68\AAD 2\GreenShadow\GreenShadow\build\classes\java\main started by ksene in D:\GDSE 68\AAD 2\GreenShadow)
+2024-11-15 21:58:18 - The following 1 profile is active: "dev"
+2024-11-15 21:58:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-15 21:58:20 - Finished Spring Data repository scanning in 157 ms. Found 7 JPA repository interfaces.
+2024-11-15 21:58:21 - Tomcat initialized with port 5055 (http)
+2024-11-15 21:58:21 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:58:22 - Starting service [Tomcat]
+2024-11-15 21:58:22 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-15 21:58:22 - Initializing Spring embedded WebApplicationContext
+2024-11-15 21:58:22 - Root WebApplicationContext: initialization completed in 3889 ms
+2024-11-15 21:58:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-15 21:58:22 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-15 21:58:22 - HHH000026: Second-level cache disabled
+2024-11-15 21:58:23 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-15 21:58:23 - HikariPool-1 - Starting...
+2024-11-15 21:58:23 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b19b346
+2024-11-15 21:58:23 - HikariPool-1 - Start completed.
+2024-11-15 21:58:24 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-15 21:58:24 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-15 21:58:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-15 21:58:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-15 21:58:26 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-15 21:58:27 - Exposing 1 endpoint beneath base path '/actuator'
+2024-11-15 21:58:27 - Starting ProtocolHandler ["http-nio-5055"]
+2024-11-15 21:58:27 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-11-15 21:58:27 - Started GreenShadowApplication in 10.624 seconds (process running for 12.651)
+2024-11-15 21:58:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-15 21:58:28 - Initializing Servlet 'dispatcherServlet'
+2024-11-15 21:58:28 - Completed initialization in 1 ms
+2024-11-15 21:58:33 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-11-15 21:58:34 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
