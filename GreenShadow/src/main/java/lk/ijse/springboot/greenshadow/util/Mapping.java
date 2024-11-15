@@ -26,6 +26,7 @@ public class Mapping {
     public UserDTO convertUserToUserDTO(User user){
         return mapper.map(user, UserDTO.class);
     }
+
     public Staff convertStaffDTOToStaff(StaffDTO staffDTO){
         return mapper.map(staffDTO, Staff.class);
     }
@@ -35,6 +36,7 @@ public class Mapping {
     public List convertStaffListToStaffDTOList(List<Staff> all){
         return mapper.map(all, List.class);
     }
+
     public Field convertFieldDTOToField(FieldDTO fieldDTO) {
         return mapper.map(fieldDTO, Field.class);
     }
@@ -44,6 +46,7 @@ public class Mapping {
     public List convertFieldListToFieldDTOList(List<Field> all){
         return mapper.map(all, List.class);
     }
+
     public Crop convertCropDTOToCrop(CropDTO cropDTO){
         return mapper.map(cropDTO, Crop.class);
     }
@@ -53,6 +56,7 @@ public class Mapping {
     public List convertCropListToCropDTOList(List<Crop> all){
         return mapper.map(all, List.class);
     }
+
     public Vehicle convertVehicleDTOToVehicle(VehicleDTO vehicleDTO){
         return mapper.map(vehicleDTO, Vehicle.class);
     }
@@ -62,6 +66,7 @@ public class Mapping {
     public List convertVehicleListToVehicleDTOList(List<Vehicle> all){
         return mapper.map(all, List.class);
     }
+
     public Equipment convertEquipmentDTOToEquipment(EquipmentDTO equipmentDTO){
         return mapper.map(equipmentDTO, Equipment.class);
     }
@@ -71,6 +76,7 @@ public class Mapping {
     public List convertEquipmentListToEquipmentDTOList(List<Equipment> all){
         return mapper.map(all, List.class);
     }
+
     public MonitoringLog convertMonitoringLogDTOToMonitoringLog(MonitoringLogDTO monitoringLogDTO){
         return mapper.map(monitoringLogDTO, MonitoringLog.class);
     }

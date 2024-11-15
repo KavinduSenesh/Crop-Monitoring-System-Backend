@@ -38,6 +38,8 @@ dependencies {
 	implementation 'ch.qos.logback:logback-classic'
 	implementation 'org.apache.logging.log4j:log4j-slf4j-impl'
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+//	 https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+	implementation group: 'io.jsonwebtoken', name: 'jjwt', version: '0.2'
 }
 
 tasks.named('test') {
