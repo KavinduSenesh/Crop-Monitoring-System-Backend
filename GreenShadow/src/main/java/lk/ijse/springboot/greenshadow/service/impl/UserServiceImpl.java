@@ -10,6 +10,7 @@ import lk.ijse.springboot.greenshadow.repository.UserRepository;
 import lk.ijse.springboot.greenshadow.service.UserService;
 import lk.ijse.springboot.greenshadow.util.Mapping;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -56,5 +57,11 @@ public class UserServiceImpl implements UserService {
         }else {
             throw new UserNotFoundException("User not exists");
         }
+    }
+
+    @Override
+    public UserDetailsService userDetailsService() {
+        return email -> userRepository.findByEmail(email).orElseThrow(
+                () -> new UserNotFoundException("User not found"));
     }
 }
