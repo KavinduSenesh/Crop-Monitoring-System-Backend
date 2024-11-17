@@ -1,9 +1,15 @@
 package lk.ijse.springboot.greenshadow.jwtModels;
 
-public class SignIn {
-    public Object getEmail() {
-    }
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-    public Object getPassword() {
-    }
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class SignIn {
+    private String email;
+    private String password;
 }
