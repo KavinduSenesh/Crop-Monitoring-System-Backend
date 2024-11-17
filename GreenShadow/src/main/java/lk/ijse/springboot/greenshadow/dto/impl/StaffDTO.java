@@ -39,7 +39,6 @@ public class StaffDTO implements SuperDTO, StaffResponse {
     @NotBlank
     private String addressLine4;
     @NotBlank
-    @Pattern(regexp = "^\\+?[0-9. ()-]{7,25}$")
     private String addressLine5;
     @NotBlank
     private String contactNo;

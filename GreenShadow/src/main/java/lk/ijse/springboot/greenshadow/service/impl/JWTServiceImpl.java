@@ -45,14 +45,14 @@ public class JWTServiceImpl implements JWTService {
         return claimResolve.apply(claims);
     }
 
-    private <K, V> String generateToken(Map<String, Object> extractClaims, UserDetails userDetails) {
+    private String generateToken(Map<String, Object> extractClaims, UserDetails userDetails) {
         extractClaims.put("role", userDetails.getAuthorities());
         Date now = new Date();
         Date expire = new Date(now.getTime() + 1000 * 600);
 
-        return Jwts.builder().setClaims(extractClaims)
+        return  Jwts.builder().setClaims(extractClaims)
                 .setSubject(userDetails.getUsername())
-                .setExpiration(now)
+                .setIssuedAt(now)
                 .setExpiration(expire)
                 .signWith(getSignKey(), SignatureAlgorithm.HS256).compact();
     }

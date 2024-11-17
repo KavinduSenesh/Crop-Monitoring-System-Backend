@@ -35,8 +35,12 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     @Override
     public JWTAuthResponse signUp(UserDTO signUp) {
         var savedUser = userRepository.save(mapping.convertUserDTOToUser(signUp));
-        var genToken = jwtService.generateToken(savedUser);
-        return JWTAuthResponse.builder().token(genToken).build();
+        try {
+            var genToken = jwtService.generateToken(savedUser);
+            return JWTAuthResponse.builder().token(genToken).build();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override

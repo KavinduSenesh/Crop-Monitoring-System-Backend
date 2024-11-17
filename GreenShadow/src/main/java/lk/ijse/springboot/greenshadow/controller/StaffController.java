@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.controller;
 
+import jakarta.validation.Valid;
 import lk.ijse.springboot.greenshadow.customObj.StaffResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.StaffDTO;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
@@ -23,7 +24,7 @@ public class StaffController {
     private final StaffService staffService;
 
     @PostMapping
-    public ResponseEntity<?> saveStaff(@RequestBody StaffDTO staffDTO) {
+    public ResponseEntity<?> saveStaff(@Valid @RequestBody StaffDTO staffDTO) {
             if (staffDTO == null ){
                 logger.warn("Invalid request: Staff object is null");
                 return new ResponseEntity<>(HttpStatus.BAD_REQUEST);

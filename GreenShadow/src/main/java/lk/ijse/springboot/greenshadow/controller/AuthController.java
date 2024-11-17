@@ -17,7 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/v1/auth/")
+@RequestMapping("v1/auth/")
 @RequiredArgsConstructor
 @CrossOrigin("*")
 public class AuthController {
@@ -29,21 +29,22 @@ public class AuthController {
 
     @PostMapping(value = "signup", consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<JWTAuthResponse> signUp(@Valid @RequestBody UserDTO userDTO){
-        logger.info("User sign up request received from a email");
+        logger.info("SignUp Request");
         try{
             userDTO.setPassword(passwordEncoder.encode(userDTO.getPassword()));
+            System.out.println(userDTO);
             JWTAuthResponse jwtAuthResponse = authenticationService.signUp(userDTO);
+            System.out.println(jwtAuthResponse);
             if (jwtAuthResponse != null){
                 return new ResponseEntity<>(jwtAuthResponse,HttpStatus.CREATED);
             }else {
-                logger.warn("Failed to sign up user ");
                 return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
             }
         }catch (DataPersistFailedException e){
-            logger.error("Failed to persist user", e);
+            logger.error("DataPersistFailedException : {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }catch (Exception e){
-            logger.error("Failed to persist user", e);
+            logger.error("Exception : {}", e.getMessage());
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
