@@ -52,9 +52,9 @@ public class JWTServiceImpl implements JWTService {
 
         return Jwts.builder().setClaims(extractClaims)
                 .setSubject(userDetails.getUsername())
+                .setExpiration(now)
                 .setExpiration(expire)
-                .setExpiration(expire)
-                .signWith(SignatureAlgorithm.HS256, getSignKey()).compact();
+                .signWith(getSignKey(), SignatureAlgorithm.HS256).compact();
     }
 
     private String refreshToken(Map<String, Object> extractClaims, UserDetails userDetails) {
@@ -66,7 +66,7 @@ public class JWTServiceImpl implements JWTService {
         return Jwts.builder().setClaims(extractClaims)
                 .setSubject(userDetails.getUsername())
                 .setExpiration(refreshExpire)
-                .signWith(SignatureAlgorithm.HS256, getSignKey()).compact();
+                .signWith(getSignKey(), SignatureAlgorithm.HS256).compact();
     }
 
     private boolean isTokenExpired(String token) {
