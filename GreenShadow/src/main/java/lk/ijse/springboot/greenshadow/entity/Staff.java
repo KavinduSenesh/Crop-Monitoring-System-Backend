@@ -50,15 +50,19 @@ public class Staff implements SuperEntity {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "staff")
     private List<Field> field;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "staff")
     private List<Vehicle> vehicle;
 
+    @JsonIgnore
     @OneToOne(mappedBy = "staff",optional = true)
     private Equipment equipment;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "staff")
     private List<MonitoringLog> monitoringLogs;
 }
