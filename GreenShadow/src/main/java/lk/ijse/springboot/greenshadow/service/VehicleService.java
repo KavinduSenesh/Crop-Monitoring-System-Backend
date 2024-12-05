@@ -9,7 +9,7 @@ import java.util.List;
 public interface VehicleService {
     void saveVehicle(@Valid VehicleDTO vehicleDTO);
     void deleteVehicle(String vehicleCode);
-    void updateVehicle(String vehicleCode,@Valid VehicleDTO vehicleDTO);
+    void updateVehicle(@Valid VehicleDTO vehicleDTO, String staffId, String vehicleCode);
     VehicleResponse getSelectedVehicle(String vehicleCode);
     List<VehicleDTO> getAllVehicle();
 }

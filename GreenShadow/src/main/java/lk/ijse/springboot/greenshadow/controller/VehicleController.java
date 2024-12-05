@@ -65,14 +65,14 @@ public class VehicleController {
         }
     }
 
-    @PatchMapping(value = "/{vehicle_code}", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> updateVehicle(@PathVariable("vehicle_code") String vehicleCode,@Valid @RequestBody VehicleDTO vehicleDTO){
+    @PatchMapping(value = "/{vehicle_code}",params = "staffId", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Void> updateVehicle(@PathVariable("vehicle_code") String vehicleCode,@Valid @RequestBody VehicleDTO vehicleDTO, @RequestParam("staffId") String staffId){
         try {
             if (vehicleCode == null || vehicleCode.isEmpty()){
                 logger.warn("Vehicle code is empty or null");
                 return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
             }
-            vehicleService.updateVehicle(vehicleCode, vehicleDTO);
+            vehicleService.updateVehicle(vehicleDTO,staffId, vehicleCode);
             logger.info("Vehicle with vehicle code: {} updated successfully", vehicleCode);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }catch (VehicleNotFoundException e){
