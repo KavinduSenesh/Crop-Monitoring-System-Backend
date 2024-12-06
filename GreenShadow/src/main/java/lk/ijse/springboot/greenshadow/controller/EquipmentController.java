@@ -66,15 +66,15 @@ public class EquipmentController {
         }
     }
 
-    @PatchMapping(value = "/{equipmentId}", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> updateEquipment(@PathVariable("equipmentId") String equipmentId, @Valid @RequestBody EquipmentDTO equipmentDTO){
+    @PatchMapping(value = "/{equipmentId}",params = {"staffIds", "fieldCode"}, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Void> updateEquipment(@Valid @RequestBody EquipmentDTO equipmentDTO, @RequestParam String staffId,@RequestParam String fieldCode, @PathVariable("equipmentId") String equipmentId){
         logger.info("Request received to update equipment with Equipment ID: {}", equipmentId);
         try{
             if (equipmentId == null || equipmentId.isEmpty()){
                 logger.warn("Invalid request: Equipment ID is null or empty");
                 return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
             }else {
-                equipmentService.updateEquipment(equipmentId, equipmentDTO);
+                equipmentService.updateEquipment(equipmentDTO, staffId, fieldCode, equipmentId);
                 logger.info("Equipment with Equipment ID: {} updated successfully", equipmentId);
                 return new ResponseEntity<>(HttpStatus.NO_CONTENT);
             }

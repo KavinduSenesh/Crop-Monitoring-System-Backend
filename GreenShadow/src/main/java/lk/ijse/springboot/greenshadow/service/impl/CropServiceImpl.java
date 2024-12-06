@@ -5,9 +5,12 @@ import lk.ijse.springboot.greenshadow.customObj.CropResponse;
 import lk.ijse.springboot.greenshadow.customObj.impl.CropErrorResponse;
 import lk.ijse.springboot.greenshadow.dto.impl.CropDTO;
 import lk.ijse.springboot.greenshadow.entity.Crop;
+import lk.ijse.springboot.greenshadow.entity.Field;
 import lk.ijse.springboot.greenshadow.exception.CropNotFoundException;
 import lk.ijse.springboot.greenshadow.exception.DataPersistFailedException;
+import lk.ijse.springboot.greenshadow.exception.FieldNotFoundException;
 import lk.ijse.springboot.greenshadow.repository.CropRepository;
+import lk.ijse.springboot.greenshadow.repository.FieldRepository;
 import lk.ijse.springboot.greenshadow.service.CropService;
 import lk.ijse.springboot.greenshadow.util.AppUtil;
 import lk.ijse.springboot.greenshadow.util.Mapping;
@@ -22,7 +25,7 @@ import java.util.Optional;
 public class CropServiceImpl implements CropService{
     private final CropRepository cropRepository;
     private final Mapping mapping;
-
+    private final FieldRepository fieldRepository;
 
     @Override
     public void saveCrop(CropDTO cropDTO) {
@@ -44,15 +47,21 @@ public class CropServiceImpl implements CropService{
     }
 
     @Override
-    public void updateCrop(String cropCode, CropDTO cropDTO) {
-        cropRepository.findById(cropCode).ifPresentOrElse(
-                selectedCrop -> {
-                    cropDTO.setCropCode(selectedCrop.getCropCode());
-                    cropRepository.save(mapping.convertCropDTOToCrop(cropDTO));
-                }, () -> {
-                    throw new DataPersistFailedException("Failed to update crop");
-                }
-        );
+    public void updateCrop(CropDTO cropDTO, String fieldCode, String id) {
+        Optional<Crop> byCropCode = cropRepository.findById(id);
+        if (byCropCode.isPresent()){
+            Field field = fieldRepository.findById(fieldCode).orElseThrow(
+                    () -> new FieldNotFoundException("Field not found")
+            );
+            byCropCode.get().setField(field);
+            byCropCode.get().setCropCommonName(cropDTO.getCropCommonName());
+            byCropCode.get().setCategory(cropDTO.getCategory());
+            byCropCode.get().setCropSeason(cropDTO.getCropSeason());
+            byCropCode.get().setCropScientificName(cropDTO.getCropScientificName());
+            byCropCode.get().setCropImage(cropDTO.getCropImage());
+        }else {
+            throw new CropNotFoundException("Crop not found");
+        }
     }
 
     @Override
