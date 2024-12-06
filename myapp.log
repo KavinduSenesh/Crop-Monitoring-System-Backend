@@ -27759,3 +27759,384 @@ This generated password is for development use only. Your security configuration
 2024-11-15 22:33:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-11-15 22:33:28 - Initializing Servlet 'dispatcherServlet'
 2024-11-15 22:33:28 - Completed initialization in 2 ms
+2024-12-04 11:06:26 - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 11:06:26 - Starting GreenShadowApplication using Java 17.0.11 with PID 14484 (C:\Users\ksene\OneDrive\Desktop1\GreenShadow\build\classes\java\main started by ksene in C:\Users\ksene\OneDrive\Desktop1)
+2024-12-04 11:06:26 - The following 1 profile is active: "dev"
+2024-12-04 11:06:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04 11:06:28 - Finished Spring Data repository scanning in 104 ms. Found 7 JPA repository interfaces.
+2024-12-04 11:06:29 - Tomcat initialized with port 5055 (http)
+2024-12-04 11:06:29 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:06:29 - Starting service [Tomcat]
+2024-12-04 11:06:29 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-04 11:06:29 - Initializing Spring embedded WebApplicationContext
+2024-12-04 11:06:29 - Root WebApplicationContext: initialization completed in 2719 ms
+2024-12-04 11:06:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04 11:06:29 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-04 11:06:29 - HHH000026: Second-level cache disabled
+2024-12-04 11:06:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04 11:06:30 - HikariPool-1 - Starting...
+2024-12-04 11:06:30 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@512dc0e0
+2024-12-04 11:06:30 - HikariPool-1 - Start completed.
+2024-12-04 11:06:30 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 11:06:30 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04 11:06:32 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04 11:06:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:06:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04 11:06:33 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-04 11:06:34 - Starting ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:06:34 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-12-04 11:06:34 - Started GreenShadowApplication in 7.979 seconds (process running for 9.3)
+2024-12-04 11:06:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 11:06:34 - Initializing Servlet 'dispatcherServlet'
+2024-12-04 11:06:34 - Completed initialization in 2 ms
+2024-12-04 11:08:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:08:50 - HikariPool-1 - Shutdown initiated...
+2024-12-04 11:08:50 - HikariPool-1 - Shutdown completed.
+2024-12-04 11:08:54 - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 11:08:54 - Starting GreenShadowApplication using Java 17.0.11 with PID 4564 (C:\Users\ksene\OneDrive\Desktop1\GreenShadow\build\classes\java\main started by ksene in C:\Users\ksene\OneDrive\Desktop1)
+2024-12-04 11:08:54 - The following 1 profile is active: "dev"
+2024-12-04 11:08:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04 11:08:55 - Finished Spring Data repository scanning in 85 ms. Found 7 JPA repository interfaces.
+2024-12-04 11:08:56 - Tomcat initialized with port 5055 (http)
+2024-12-04 11:08:56 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:08:56 - Starting service [Tomcat]
+2024-12-04 11:08:56 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-04 11:08:56 - Initializing Spring embedded WebApplicationContext
+2024-12-04 11:08:56 - Root WebApplicationContext: initialization completed in 2074 ms
+2024-12-04 11:08:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04 11:08:56 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-04 11:08:56 - HHH000026: Second-level cache disabled
+2024-12-04 11:08:57 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04 11:08:57 - HikariPool-1 - Starting...
+2024-12-04 11:08:57 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dbb8da0
+2024-12-04 11:08:57 - HikariPool-1 - Start completed.
+2024-12-04 11:08:57 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 11:08:57 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04 11:08:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04 11:08:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:08:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04 11:09:00 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-04 11:09:00 - Starting ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:09:00 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-12-04 11:09:00 - Started GreenShadowApplication in 6.255 seconds (process running for 7.455)
+2024-12-04 11:09:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 11:09:00 - Initializing Servlet 'dispatcherServlet'
+2024-12-04 11:09:00 - Completed initialization in 2 ms
+2024-12-04 11:09:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:09:45 - HikariPool-1 - Shutdown initiated...
+2024-12-04 11:09:45 - HikariPool-1 - Shutdown completed.
+2024-12-04 11:09:48 - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 11:09:48 - Starting GreenShadowApplication using Java 17.0.11 with PID 4004 (C:\Users\ksene\OneDrive\Desktop1\GreenShadow\build\classes\java\main started by ksene in C:\Users\ksene\OneDrive\Desktop1)
+2024-12-04 11:09:48 - The following 1 profile is active: "dev"
+2024-12-04 11:09:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04 11:09:49 - Finished Spring Data repository scanning in 85 ms. Found 7 JPA repository interfaces.
+2024-12-04 11:09:50 - Tomcat initialized with port 5055 (http)
+2024-12-04 11:09:50 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:09:50 - Starting service [Tomcat]
+2024-12-04 11:09:50 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-04 11:09:50 - Initializing Spring embedded WebApplicationContext
+2024-12-04 11:09:50 - Root WebApplicationContext: initialization completed in 2053 ms
+2024-12-04 11:09:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04 11:09:50 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-04 11:09:50 - HHH000026: Second-level cache disabled
+2024-12-04 11:09:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04 11:09:51 - HikariPool-1 - Starting...
+2024-12-04 11:09:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@141229f6
+2024-12-04 11:09:51 - HikariPool-1 - Start completed.
+2024-12-04 11:09:51 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 11:09:51 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04 11:09:52 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04 11:09:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:09:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04 11:09:54 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-04 11:09:54 - Starting ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:09:54 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-12-04 11:09:54 - Started GreenShadowApplication in 6.393 seconds (process running for 7.27)
+2024-12-04 11:09:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 11:09:54 - Initializing Servlet 'dispatcherServlet'
+2024-12-04 11:09:54 - Completed initialization in 2 ms
+2024-12-04 11:11:25 - Attempting to save staff: StaffDTO(staffId=null, firstName=John, lastName=Doe, designation=Msasaanager, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=ILsds, addressLine5=62701, contactNo=123-456-7890, email=senes@example.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:11:25 - Successfully saved staff with ID: S-975f8f82-48a3-4f28-b7f5-e987fe999e26
+2024-12-04 11:11:47 - Fetching staff with ID: S-f6665b3f-39f7-4d64-ad6f-f7f76070c9c8
+2024-12-04 11:11:47 - Successfully fetched staff with ID: S-f6665b3f-39f7-4d64-ad6f-f7f76070c9c8
+2024-12-04 11:12:04 - Fetching staff with ID: S-975f8f82-48a3-4f28-b7f5-e987fe999e26
+2024-12-04 11:12:04 - Successfully fetched staff with ID: S-975f8f82-48a3-4f28-b7f5-e987fe999e26
+2024-12-04 11:12:11 - Fetching all staff
+2024-12-04 11:12:52 - Attempting to save staff: StaffDTO(staffId=null, firstName=John, lastName=cena, designation=Msasaanager, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=ILsds, addressLine5=62701, contactNo=123-456-7890, email=sathsara@example.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:12:53 - Successfully saved staff with ID: S-3e80a273-e8a9-47e5-b08d-c61aac3e4f50
+2024-12-04 11:13:00 - Fetching all staff
+2024-12-04 11:13:18 - Attempting to delete staff with ID: S-975f8f82-48a3-4f28-b7f5-e987fe999e26
+2024-12-04 11:13:18 - Successfully deleted staff with ID: S-975f8f82-48a3-4f28-b7f5-e987fe999e26
+2024-12-04 11:13:23 - Attempting to save staff: StaffDTO(staffId=null, firstName=John, lastName=cena, designation=Msasaanager, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=ILsds, addressLine5=62701, contactNo=123-456-7890, email=sathsara@example.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:13:23 - SQL Error: 1062, SQLState: 23000
+2024-12-04 11:13:23 - Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+2024-12-04 11:13:23 - Unexpected error occurred while saving staff: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at lk.ijse.springboot.greenshadow.service.impl.StaffServiceImpl$$SpringCGLIB$$0.saveStaff(<generated>)
+	at lk.ijse.springboot.greenshadow.controller.StaffController.saveStaff(StaffController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.MySQLDialect.lambda$buildSQLExceptionConversionDelegate$3(MySQLDialect.java:1243)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1054)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1003)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1312)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:988)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 85 common frames omitted
+2024-12-04 11:13:28 - Attempting to save staff: StaffDTO(staffId=null, firstName=John, lastName=cena, designation=Msasaanager, gender=MALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=ILsds, addressLine5=62701, contactNo=123-456-7890, email=sathsara@example.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:13:28 - SQL Error: 1062, SQLState: 23000
+2024-12-04 11:13:28 - Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+2024-12-04 11:13:29 - Unexpected error occurred while saving staff: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; SQL [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]; constraint [staff.UKpvctx4dbua9qh4p4s3gm3scrh]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:290)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:663)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:413)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at lk.ijse.springboot.greenshadow.service.impl.StaffServiceImpl$$SpringCGLIB$$0.saveStaff(<generated>)
+	at lk.ijse.springboot.greenshadow.controller.StaffController.saveStaff(StaffController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'] [insert into staff (address_line_1,address_line_2,address_line_3,address_line_4,address_line_5,contact_no,date_of_birth,designation,email,first_name,gender,joined_date,last_name,role,staff_member_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.MySQLDialect.lambda$buildSQLExceptionConversionDelegate$3(MySQLDialect.java:1243)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:633)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:500)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:385)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:487)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2324)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1981)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 64 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'sathsara@example.com' for key 'staff.UKpvctx4dbua9qh4p4s3gm3scrh'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1054)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1003)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1312)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:988)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 85 common frames omitted
+2024-12-04 11:13:34 - Fetching all staff
+2024-12-04 11:13:52 - Attempting to update staff: StaffDTO(staffId=null, firstName=Jo57rgrgrgrgrg52752hn, lastName=Dhthththjhgoe, designation=sathsara, gender=FEMALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=IL, addressLine5=62701, contactNo=123-456-7890, email=john.doeasdad@ex4455ample.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:13:52 - Failed to update staff: Staff not found
+2024-12-04 11:13:56 - Attempting to update staff: StaffDTO(staffId=null, firstName=Jo57rgrgrgrgrg52752hn, lastName=Dhthththjhgoe, designation=sathsara, gender=FEMALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=IL, addressLine5=62701, contactNo=123-456-7890, email=john.doeasdad@ex4455ample.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:13:56 - Failed to update staff: Staff not found
+2024-12-04 11:14:33 - Attempting to update staff: StaffDTO(staffId=null, firstName=senes, lastName=jon, designation=sathsara, gender=FEMALE, joinedDate=Sun Jan 01 05:30:00 IST 2023, dateOfBirth=Mon Jan 01 05:30:00 IST 1990, addressLine1=123 Main St, addressLine2=Apt 4B, addressLine3=Springfield, addressLine4=IL, addressLine5=62701, contactNo=123-456-7890, email=john@example.com, role=OTHER, fieldCodes=null, vehicleCodes=null, equipmentId=null, monitoringLogCodes=null)
+2024-12-04 11:14:33 - Successfully updated staff with ID: S-3e80a273-e8a9-47e5-b08d-c61aac3e4f50
+2024-12-04 11:18:05 - Fetching all staff
+2024-12-04 11:18:14 - Fetching all staff
+2024-12-04 11:29:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m41s461ms556µs800ns).
+2024-12-04 11:48:15 - Fetching all staff
+2024-12-04 11:48:19 - Fetching all staff
+2024-12-04 11:48:19 - Fetching all staff
+2024-12-04 11:48:20 - Fetching all staff
+2024-12-04 11:51:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:51:15 - HikariPool-1 - Shutdown initiated...
+2024-12-04 11:51:15 - HikariPool-1 - Shutdown completed.
+2024-12-04 11:51:22 - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 11:51:22 - Starting GreenShadowApplication using Java 17.0.11 with PID 14960 (C:\Users\ksene\OneDrive\Desktop1\GreenShadow\build\classes\java\main started by ksene in C:\Users\ksene\OneDrive\Desktop1)
+2024-12-04 11:51:22 - The following 1 profile is active: "dev"
+2024-12-04 11:51:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-04 11:51:24 - Finished Spring Data repository scanning in 110 ms. Found 7 JPA repository interfaces.
+2024-12-04 11:51:25 - Tomcat initialized with port 5055 (http)
+2024-12-04 11:51:25 - Initializing ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:51:25 - Starting service [Tomcat]
+2024-12-04 11:51:25 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-12-04 11:51:25 - Initializing Spring embedded WebApplicationContext
+2024-12-04 11:51:25 - Root WebApplicationContext: initialization completed in 2985 ms
+2024-12-04 11:51:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-04 11:51:25 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-04 11:51:26 - HHH000026: Second-level cache disabled
+2024-12-04 11:51:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-04 11:51:26 - HikariPool-1 - Starting...
+2024-12-04 11:51:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e71a1f8
+2024-12-04 11:51:26 - HikariPool-1 - Start completed.
+2024-12-04 11:51:27 - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 11:51:27 - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-04 11:51:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-04 11:51:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-04 11:51:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-04 11:51:30 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-04 11:51:30 - Starting ProtocolHandler ["http-nio-5055"]
+2024-12-04 11:51:30 - Tomcat started on port 5055 (http) with context path '/greenShadow'
+2024-12-04 11:51:30 - Started GreenShadowApplication in 9.069 seconds (process running for 10.584)
+2024-12-04 11:51:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-04 11:51:31 - Initializing Servlet 'dispatcherServlet'
+2024-12-04 11:51:31 - Completed initialization in 4 ms
+2024-12-04 12:00:30 - Fetching all staff
+2024-12-04 12:00:35 - Fetching all staff
+2024-12-04 12:00:35 - Fetching all staff
+2024-12-04 12:01:07 - Fetching all staff
