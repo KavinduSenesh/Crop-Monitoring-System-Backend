@@ -47,7 +47,6 @@ public class CropController {
                 cropDTO.setCategory(category);
                 cropDTO.setCropSeason(cropSeason);
                 cropDTO.setFieldCode(fieldCode);
-                cropDTO.setMonitoringLogCodes(monitoringLogCodes);
                 cropService.saveCrop(cropDTO);
                 logger.info("Crop with Crop name: {} saved successfully", cropDTO.getCropCommonName());
                 return ResponseEntity.ok().build();
