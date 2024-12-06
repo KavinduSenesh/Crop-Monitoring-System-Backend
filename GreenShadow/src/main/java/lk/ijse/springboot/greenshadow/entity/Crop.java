@@ -33,6 +33,7 @@ public class Crop implements SuperEntity {
     @JoinColumn(name = "field_code", referencedColumnName = "field_code")
     private Field field;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "crop")
     private List<MonitoringLog> monitoringLogList;
 }

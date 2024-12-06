@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,6 +25,7 @@ public class MonitoringLog implements SuperEntity {
     @Column(name = "observed_image", columnDefinition = "LONGTEXT")
     private String observedImage;
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable(
         name = "monitoring_log_field",
@@ -32,6 +34,7 @@ public class MonitoringLog implements SuperEntity {
     )
     private List<Field> field;
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable(
             name = "monitoring_log_crop",
@@ -40,6 +43,7 @@ public class MonitoringLog implements SuperEntity {
     )
     private List<Crop> crop;
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable(
             name = "monitoring_log_staff",

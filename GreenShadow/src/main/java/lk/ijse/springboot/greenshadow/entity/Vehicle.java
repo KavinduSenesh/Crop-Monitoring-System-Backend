@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,6 +26,7 @@ public class Vehicle implements SuperEntity {
     @Column(name = "remarks")
     private String remarks;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "staff_member_id", referencedColumnName = "staff_member_id")
     private Staff staff;

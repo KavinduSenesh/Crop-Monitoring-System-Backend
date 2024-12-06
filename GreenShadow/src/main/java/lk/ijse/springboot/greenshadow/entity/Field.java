@@ -1,5 +1,6 @@
 package lk.ijse.springboot.greenshadow.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,9 +29,11 @@ public class Field implements SuperEntity {
     @Column(name = "fieldImage2", columnDefinition = "LONGTEXT")
     private String fieldImage2;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "field",cascade = CascadeType.ALL)
     private List<Crop> crop;
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable(
             name = "field_staff",
@@ -39,9 +42,11 @@ public class Field implements SuperEntity {
     )
     private List<Staff> staff;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "field")
     private List<Equipment> equipment;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "field")
     private List<MonitoringLog> monitoringLogs;
 }
